@@ -272,7 +272,6 @@ class Manager(Thread):
             if spec:
                 module = util.module_from_spec(spec)
                 spec.loader.exec_module(module)
-        http.root = http.Root()
 
     def send_alldevices(self):
         """

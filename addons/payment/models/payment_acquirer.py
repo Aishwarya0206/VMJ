@@ -97,7 +97,7 @@ class PaymentAcquirer(models.Model):
     state = fields.Selection([
         ('disabled', 'Disabled'),
         ('enabled', 'Enabled'),
-        ('test', 'Test Mode')], required=True, default='disabled', copy=False,
+        ('test', 'Test Mode')], required=True, default='disabled',
         help="""In test mode, a fake payment is processed through a test
              payment interface. This mode is advised when setting up the
              acquirer. Watch out, test and production modes require

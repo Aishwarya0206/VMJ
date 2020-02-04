@@ -295,9 +295,6 @@ msgid ""
 "based on the greatest product lead time. Otherwise, it will be based on the "
 "shortest."
 msgstr ""
-"Ha minden terméket egyszerre szállít, akkor a szállítási rendelés a "
-"legnagyobb lead idejű termékhez lesz igazítva. Egyéb esetben a "
-"legrövidebbhez kerül igazításra."
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.exception_on_so
@@ -377,10 +374,6 @@ msgid ""
 "for delivery that many days earlier than the actual promised date, to cope "
 "with unexpected delays in the supply chain."
 msgstr ""
-"Vevőknek ígért határidőkkel kapcsolatos hiba határa. A termékek beszerzési "
-"és szállítási dátuma a megígért dátumnál ennyi nappal előbbre kerül "
-"ütemezésre, abból a célból, hogy kezeljük a beszállítási lánc előre nem "
-"látható késéseit."
 
 #. module: sale_stock
 #: model:ir.model.fields,help:sale_stock.field_res_company__security_lead
@@ -398,12 +391,12 @@ msgstr ""
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order_line__qty_delivered_method
 msgid "Method to update delivered qty"
-msgstr "Szállított mennyiség frissítésének módszere"
+msgstr ""
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_stock
 msgid "Move forward expected delivery dates by"
-msgstr "Várható szállítási dátumok előre mozgatása"
+msgstr ""
 
 #. module: sale_stock
 #. openerp-web
@@ -462,10 +455,6 @@ msgid ""
 "or/and frequent stock-outs. By default, the scheduler runs automatically "
 "every 24 hours."
 msgstr ""
-"Termékek lefoglalása kézzel a szállítási rendelésen vagy az ütemező "
-"futtatásával ajánlott a prioritások jobb kezeléséhez hosszú átfutáűsi idejű "
-"vevői rendelések és/vagy gyakori készlethiányok esetén. Alapértelmezésben az"
-" ütemező automatikusan fut 24 óránként."
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order_line__route_id
@@ -490,7 +479,7 @@ msgstr "Vevői rendelések"
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_stock_production_lot__sale_order_count
 msgid "Sale order count"
-msgstr "Értékesítési rendelés szám"
+msgstr ""
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_sale_report
@@ -526,7 +515,7 @@ msgstr "Értékesítési biztonsági napok"
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_stock
 msgid "Schedule deliveries earlier to avoid delays"
-msgstr "Szállítások korábbi időzítése a csúszások elkerüléséhez"
+msgstr ""
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order_line__scheduled_date
@@ -536,12 +525,12 @@ msgstr "Ütemezett dátum"
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_res_config_settings__security_lead
 msgid "Security Lead Time"
-msgstr "Biztonsági átfutási idő"
+msgstr ""
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_res_config_settings__use_security_lead
 msgid "Security Lead Time for Sales"
-msgstr "Biztonsági átfutási idő értékesítéshez"
+msgstr ""
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_stock_location_route__sale_selectable
@@ -556,7 +545,7 @@ msgstr "Termékek szállítása egyszerre"
 #. module: sale_stock
 #: model:ir.model.fields.selection,name:sale_stock.selection__res_config_settings__default_picking_policy__direct
 msgid "Ship products as soon as available, with back orders"
-msgstr "Szállítás amint lehetséges, visszamaradt rendelésekkel együtt"
+msgstr ""
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order__picking_policy
@@ -566,7 +555,7 @@ msgstr "Szállítási szabályok"
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.product_template_view_form_inherit_stock
 msgid "Sold in the last 365 days"
-msgstr "Elmúlt 365 napban értékesített"
+msgstr ""
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_stock_move
@@ -665,12 +654,12 @@ msgstr "Amikor minden termék rendelkezésre áll"
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_stock
 msgid "When to reserve sold products"
-msgstr "Mikor kerüljenek lefoglalásra az értékesített termékek"
+msgstr ""
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_stock
 msgid "When to start shipping"
-msgstr "Mikor kezdődjön a kiszállítás"
+msgstr ""
 
 #. module: sale_stock
 #: code:addons/sale_stock/models/sale_order.py:0
@@ -689,8 +678,6 @@ msgid ""
 "You cannot decrease the ordered quantity below the delivered quantity.\n"
 "Create a return first."
 msgstr ""
-"Nem lehet lecsökkenteni a rendelt mennyiséget a szállított mennyiség alá.\n"
-"Hozzon létre egy visszárut előbb."
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.exception_on_so
@@ -711,9 +698,9 @@ msgstr "ebből"
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.exception_on_so
 msgid "ordered instead of"
-msgstr "rendelt ehelyett:"
+msgstr ""
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.exception_on_picking
 msgid "processed instead of"
-msgstr "feldolgozott ehelyett: "
+msgstr ""

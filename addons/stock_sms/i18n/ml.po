@@ -2,16 +2,12 @@
 # This file contains the translation of the following modules:
 # 	* stock_sms
 # 
-# Translators:
-# Avinash N K <avinashnk94@gmail.com>, 2020
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-07 07:13+0000\n"
 "PO-Revision-Date: 2019-08-26 09:14+0000\n"
-"Last-Translator: Avinash N K <avinashnk94@gmail.com>, 2020\n"
 "Language-Team: Malayalam (https://www.transifex.com/odoo/teams/41243/ml/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,27 +33,27 @@ msgstr ""
 #. module: stock_sms
 #: model_terms:ir.ui.view,arch_db:stock_sms.view_confirm_stock_sms
 msgid "Cancel"
-msgstr "റദ്ദാക്കുക"
+msgstr ""
 
 #. module: stock_sms
 #: model:ir.model,name:stock_sms.model_res_company
 msgid "Companies"
-msgstr "കമ്പനികൾ"
+msgstr ""
 
 #. module: stock_sms
 #: model:ir.model.fields,field_description:stock_sms.field_confirm_stock_sms__company_id
 msgid "Company"
-msgstr "കമ്പനി"
+msgstr ""
 
 #. module: stock_sms
 #: model:ir.model,name:stock_sms.model_res_config_settings
 msgid "Config Settings"
-msgstr "ക്രമീകരണങ്ങൾ ക്രമീകരിക്കുക"
+msgstr ""
 
 #. module: stock_sms
 #: model_terms:ir.ui.view,arch_db:stock_sms.view_confirm_stock_sms
 msgid "Confirm"
-msgstr "സ്ഥിരീകരിക്കുക"
+msgstr ""
 
 #. module: stock_sms
 #: model:ir.model,name:stock_sms.model_confirm_stock_sms
@@ -67,12 +63,12 @@ msgstr ""
 #. module: stock_sms
 #: model:ir.model.fields,field_description:stock_sms.field_confirm_stock_sms__create_uid
 msgid "Created by"
-msgstr "ഉണ്ടാക്കിയത്"
+msgstr ""
 
 #. module: stock_sms
 #: model:ir.model.fields,field_description:stock_sms.field_confirm_stock_sms__create_date
 msgid "Created on"
-msgstr "സൃഷ്ടിച്ചത്"
+msgstr ""
 
 #. module: stock_sms
 #: model:sms.template,name:stock_sms.sms_template_data_stock_delivery
@@ -87,7 +83,7 @@ msgstr ""
 #. module: stock_sms
 #: model:ir.model.fields,field_description:stock_sms.field_confirm_stock_sms__display_name
 msgid "Display Name"
-msgstr "പ്രദർശന നാമം"
+msgstr ""
 
 #. module: stock_sms
 #: model:ir.model.fields,field_description:stock_sms.field_res_company__has_received_warning_stock_sms
@@ -97,22 +93,22 @@ msgstr ""
 #. module: stock_sms
 #: model:ir.model.fields,field_description:stock_sms.field_confirm_stock_sms__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: stock_sms
 #: model:ir.model.fields,field_description:stock_sms.field_confirm_stock_sms____last_update
 msgid "Last Modified on"
-msgstr "അവസാനം പരിഷ്‌ക്കരിച്ചത്"
+msgstr ""
 
 #. module: stock_sms
 #: model:ir.model.fields,field_description:stock_sms.field_confirm_stock_sms__write_uid
 msgid "Last Updated by"
-msgstr "അവസാനം അപ്ഡേറ്റ് ചെയ്തത്"
+msgstr ""
 
 #. module: stock_sms
 #: model:ir.model.fields,field_description:stock_sms.field_confirm_stock_sms__write_date
 msgid "Last Updated on"
-msgstr "അവസാനം അപ്‌ഡേറ്റുചെയ്‌തത്"
+msgstr ""
 
 #. module: stock_sms
 #: model:ir.model.fields,field_description:stock_sms.field_confirm_stock_sms__picking_id

@@ -60,7 +60,7 @@ msgstr ""
 #: code:addons/mail/static/src/js/activity.js:0
 #, python-format
 msgid "%d days overdue"
-msgstr "%d ימי איחור"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -628,7 +628,7 @@ msgstr ""
 #: code:addons/mail/static/src/xml/composer.xml:0
 #, python-format
 msgid "Add attachment"
-msgstr "הוסף קובץ מצורף"
+msgstr ""
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_wizard_invite_form
@@ -651,7 +651,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__partner_ids
 msgid "Additional Contacts"
-msgstr "אנשי קשר נוספים"
+msgstr ""
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_form
@@ -816,7 +816,7 @@ msgstr ""
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
 msgid "Attach a file"
-msgstr "צרף קובץ"
+msgstr ""
 
 #. module: mail
 #: model:ir.model,name:mail.model_ir_attachment
@@ -1524,7 +1524,7 @@ msgstr "תאריך יעד"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.message_user_assigned
 msgid "Dear"
-msgstr "יקר"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity__activity_decoration
@@ -1550,7 +1550,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_type__summary
 msgid "Default Summary"
-msgstr "סיכום ברירת מחדל"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_type__default_user_id
@@ -1612,17 +1612,17 @@ msgstr "מחק"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__auto_delete
 msgid "Delete Emails"
-msgstr "מחק הודעות דוא\"ל"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__auto_delete_message
 msgid "Delete Message Copy"
-msgstr "מחק העתק הודעה"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_compose_message__auto_delete
 msgid "Delete sent emails (mass mailing only)"
-msgstr "מחק דוא\"ל שנשלח (דיוור המוני בלבד)"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_mail__state__exception
@@ -1760,7 +1760,6 @@ msgid ""
 "Do not keep a copy of the email in the document communication history (mass "
 "mailing only)"
 msgstr ""
-"אל תשמור עותק של הדוא\"ל בהיסטוריית התקשורת של המסמכים (דיוור המוני בלבד)"
 
 #. module: mail
 #. openerp-web
@@ -1787,7 +1786,7 @@ msgstr "מודל מסמך"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity__res_name
 msgid "Document Name"
-msgstr "שם מסמך"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -1856,7 +1855,7 @@ msgstr "תאריך יעד ב"
 #: code:addons/mail/static/src/js/activity.js:0
 #, python-format
 msgid "Due in %d days"
-msgstr "בתוקף עוד %d ימים"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_ir_actions_server__activity_date_deadline_range_type
@@ -1981,7 +1980,7 @@ msgstr "תבניות דוא\"ל"
 #. module: mail
 #: model:ir.model,name:mail.model_mail_thread
 msgid "Email Thread"
-msgstr "שרשור דוא\"ל"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.constraint,message:mail.constraint_mail_blacklist_unique_email
@@ -2257,7 +2256,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_channel_partner__fold_state__folded
 msgid "Folded"
-msgstr "מקופל"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -2992,7 +2991,7 @@ msgstr "פריסה"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_channel_view_kanban
 msgid "Leave"
-msgstr "עזוב"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -3091,7 +3090,7 @@ msgstr "לרשום פעילות"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__is_log
 msgid "Log an Internal Note"
-msgstr "רשום הערה פנימית"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -3127,7 +3126,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_mail_mail__mail_activity_type_id
 #: model:ir.model.fields,field_description:mail.field_mail_message__mail_activity_type_id
 msgid "Mail Activity Type"
-msgstr "סוג פעילות דואר"
+msgstr ""
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_blacklist
@@ -3482,7 +3481,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_wizard_invite__res_model
 msgid "Model of the followed resource"
-msgstr "דגם המשאב שאחריו"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_message_subtype__res_model
@@ -3923,12 +3922,12 @@ msgstr "התראות"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__notify
 msgid "Notify followers"
-msgstr "הודע לעוקבים"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_compose_message__notify
 msgid "Notify followers of the document (mass post only)"
-msgstr "הודע לעוקבים של המסמך (הודעה המונית בלבד)"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_blacklist__message_needaction_counter
@@ -4367,7 +4366,7 @@ msgstr "פעולות מתוכננות"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_type_view_tree
 msgid "Planned in"
-msgstr "מתוכנן בעוד"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -4679,7 +4678,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_mail_message__res_id
 #: model:ir.model.fields,field_description:mail.field_mail_wizard_invite__res_id
 msgid "Related Document ID"
-msgstr "מזהה מסמך קשור"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview__model
@@ -4690,7 +4689,7 @@ msgstr "מזהה מסמך קשור"
 #: model:ir.model.fields,field_description:mail.field_mail_template__model
 #: model:ir.model.fields,field_description:mail.field_mail_wizard_invite__res_model
 msgid "Related Document Model"
-msgstr "דגם מסמך קשור"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_followers__res_model
@@ -4866,12 +4865,12 @@ msgstr "שמור"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
 msgid "Save as a new template"
-msgstr "שמור כתבנית חדשה"
+msgstr ""
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
 msgid "Save as new template"
-msgstr "שמור כתבנית חדשה"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -5827,7 +5826,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__template_id
 msgid "Use template"
-msgstr "השתמש בתבנית"
+msgstr ""
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
@@ -6072,13 +6071,6 @@ msgstr ""
 #: code:addons/mail/models/mail_channel.py:0
 #, python-format
 msgid "You are in channel <b>#%s</b>."
-msgstr ""
-
-#. module: mail
-#. openerp-web
-#: code:addons/mail/static/src/js/attachment_box.js:0
-#, python-format
-msgid "You are not allowed to upload an attachment here."
 msgstr ""
 
 #. module: mail
@@ -6330,7 +6322,7 @@ msgstr "עוקבים"
 #: code:addons/mail/static/src/xml/activity.xml:0
 #, python-format
 msgid "for"
-msgstr "ל"
+msgstr ""
 
 #. module: mail
 #. openerp-web

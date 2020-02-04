@@ -14,6 +14,7 @@
 # Kari Lindgren <kari.lindgren@emsystems.fi>, 2019
 # Miku Laitinen <miku.laitinen@gmail.com>, 2019
 # Mikko Salmela <salmemik@gmail.com>, 2019
+# Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2019
 # Jukka Paulin <jukka.paulin@gmail.com>, 2019
 # Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2019
 # Kimmo Lehtonen <leban@netzionale.com>, 2019
@@ -23,7 +24,6 @@
 # Sari Mäyrä <sari.mayra@sv-oy.fi>, 2019
 # Jenni Heikkilä <jenni.heikkila@sv-oy.fi>, 2019
 # Simo Suurla <simo@suurla.fi>, 2019
-# Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:10+0000\n"
-"Last-Translator: Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2020\n"
+"Last-Translator: Simo Suurla <simo@suurla.fi>, 2019\n"
 "Language-Team: Finnish (https://www.transifex.com/odoo/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1350,25 +1350,25 @@ msgstr "Kuva"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__image_1024
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__image_1024
 msgid "Image 1024"
-msgstr "Kuva 1024"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__image_128
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__image_128
 msgid "Image 128"
-msgstr "Kuva 128"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__image_256
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__image_256
 msgid "Image 256"
-msgstr "Kuva 256"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__image_512
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__image_512
 msgid "Image 512"
-msgstr "Kuva 512"
+msgstr ""
 
 #. module: hr
 #: code:addons/hr/models/hr_employee.py:0

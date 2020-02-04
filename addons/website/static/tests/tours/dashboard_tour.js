@@ -9,14 +9,13 @@ tour.register("backend_dashboard", {
 }, [tour.STEPS.SHOW_APPS_MENU_ITEM,
     {
     trigger: 'a[data-menu-xmlid="website.menu_website_configuration"]',
+    run: 'click',
 }, {
     trigger: '.dropdown-toggle[data-menu-xmlid="website.menu_dashboard"]',
+    run: 'click',
 }, {
     trigger: '.dropdown-item[data-menu-xmlid="website.menu_website_google_analytics"]',
-}, {
-    // Visits section should always be present even when empty / not hooked to anything
-    trigger: 'h2:contains("Visits")',
-    content: "Check if dashboard loads",
-    run: function () {}
+    content: 'Check if traceback',
+    run: 'click',
 }]);
 });

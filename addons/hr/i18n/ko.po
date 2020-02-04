@@ -55,7 +55,7 @@ msgstr "'배지 인쇄 - %s' % (object.name).replace('/', '')"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "100 people"
-msgstr "100 명"
+msgstr ""
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -68,7 +68,7 @@ msgstr "100 명"
 msgid ""
 "12 days of pro training per year,<br> including 6 of your choice, for "
 "personal development."
-msgstr "자기 개발을 위해 당신이 선택한 6일을 포함하여 <br>매년 12일의 프로 훈련을 받습니다."
+msgstr ""
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -79,7 +79,7 @@ msgstr "자기 개발을 위해 당신이 선택한 6일을 포함하여 <br>매
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "2 months"
-msgstr "2달"
+msgstr ""
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -101,7 +101,7 @@ msgstr "4,300,000"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "60% Year over Year"
-msgstr "해마다 60%"
+msgstr ""
 
 #. module: hr
 #: code:addons/hr/models/hr_employee.py:0
@@ -109,7 +109,7 @@ msgstr "해마다 60%"
 msgid ""
 "<b>Congratulations!</b> May I recommend you to setup an <a "
 "href=\"%s\">onboarding plan?</a>"
-msgstr "<b>축하합니다!</b> <a href=\"%s\">신입사원 교육 계획</a>을 세우는 것을 추천해도 될까요?"
+msgstr ""
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -120,7 +120,7 @@ msgstr "<b>축하합니다!</b> <a href=\"%s\">신입사원 교육 계획</a>을
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "<b>Flexible </b>working hours"
-msgstr "<b>유연 </b>근무 시간"
+msgstr ""
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -131,7 +131,7 @@ msgstr "<b>유연 </b>근무 시간"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "<br>What do we offer?"
-msgstr "<br>우리가 제공하는 것은 무엇입니까?"
+msgstr ""
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_department_view_kanban
@@ -182,7 +182,7 @@ msgstr ""
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "<span class=\"ml8 mr-2\">IP Addresses (comma-separated)</span>"
-msgstr "<span class=\"ml8 mr-2\">IP 주소(쉼표로 구분)</span>"
+msgstr ""
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
@@ -192,7 +192,7 @@ msgstr "<span class=\"ml8 mr-2\">발송 최소 이메일 수 </span>"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "<span class=\"o_form_label\">Presence Control</span>"
-msgstr "<span class=\"o_form_label\">현재 상태 제어</span>"
+msgstr ""
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
@@ -214,7 +214,7 @@ msgstr "<span class=\"o_stat_text\">이후 연결됨</span>"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "<span class=\"o_stat_text\">Present Since</span>"
-msgstr "<span class=\"o_stat_text\">현재부터</span>"
+msgstr ""
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_department_view_kanban
@@ -302,20 +302,18 @@ msgid ""
 "A pleasant and friendly working environment located in a renovated farm in the countryside\n"
 "                        between Louvain-la-Neuve and Namur"
 msgstr ""
-"루뱅-라-뉴브와 나무르 사이에 있는 시골의 개조된 농장에 위치한 \n"
-"                        쾌적하고 친근한 근무환경입니다."
 
 #. module: hr
 #: model:ir.model.constraint,message:hr.constraint_hr_employee_user_uniq
 msgid "A user cannot be linked to multiple employees in the same company."
-msgstr "한 명의 사용자는 같은 회사의 한 명의 직원으로만 연결될 수 있습니다."
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__hr_presence_state__absent
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_base__hr_presence_state__absent
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__hr_presence_state__absent
 msgid "Absent"
-msgstr "결근"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_needaction
@@ -354,7 +352,7 @@ msgstr "활동 예외 장식"
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_config_plan
 msgid "Activity Planning"
-msgstr "활동 계획"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_state
@@ -407,7 +405,7 @@ msgstr "관리자"
 msgid ""
 "Advanced <b>training</b>: Technical and functional training sessions (5 "
 "weeks)"
-msgstr "고급 <b>훈련</b> : 기술 및 기능 교육 세션 (5주)"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__module_hr_presence
@@ -447,7 +445,7 @@ msgstr "직원이 자신의 데이터를 업데이트하도록 허용합니다."
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Archived"
-msgstr "보존"
+msgstr "보관"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_attachment_count
@@ -460,7 +458,7 @@ msgstr "첨부 파일 수"
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Attendance"
-msgstr "참석"
+msgstr "근태"
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__mail_alias__alias_contact__employees
@@ -486,7 +484,7 @@ msgstr "해당 부서의 구성원을 채널에 자동으로 가입시킵니다.
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Autonomy:"
-msgstr "자치 :"
+msgstr ""
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
@@ -511,7 +509,7 @@ msgstr "자리 비움"
 msgid ""
 "BabyFoot &amp; Video Games <br>at Lunch Time, <br>Drinks at the Office, "
 "<br>Several Team Buildings"
-msgstr "<br>점심시간<br>에 간식 &amp; 비디오 게임, 몇몇 팀 미팅 및 사무실에서 <br>음료 제공"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__bachelor
@@ -527,7 +525,7 @@ msgstr "학사"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Bachelor or Master Degree"
-msgstr "학사 또는 석사 과정"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__barcode
@@ -553,7 +551,7 @@ msgstr "근태 기준"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__hr_presence_control_email
 msgid "Based on number of emails sent"
-msgstr "전송된 이메일 수에 따라"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__hr_presence_control_login
@@ -574,7 +572,7 @@ msgstr "기본 직원"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Be responsible of what you develop"
-msgstr "당신이 개발한 것에 책임을 지기"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__can_edit
@@ -726,7 +724,7 @@ msgstr "전체 이름"
 #. module: hr
 #: model:ir.model,name:hr.model_res_config_settings
 msgid "Config Settings"
-msgstr "설정 구성"
+msgstr "설정"
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_human_resources_configuration
@@ -757,7 +755,7 @@ msgstr "연락처 정보"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Contribution to Open Source Projects"
-msgstr "오픈 소스 프로젝트에 대한 기여"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__country_of_birth
@@ -778,7 +776,7 @@ msgstr "새 부서 만들기"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form
 msgid "Create employee"
-msgstr "임직원 만들기"
+msgstr "직원 만들기"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__create_uid
@@ -819,7 +817,7 @@ msgstr "현 직원수"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Customer Relationship:"
-msgstr "고객 관계"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__birthday
@@ -888,7 +886,7 @@ msgstr "가족관계"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Develop and improve Apps people care about"
-msgstr "사람들이 관심을 갖는 앱 개발 및 개선"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__child_ids
@@ -929,7 +927,7 @@ msgstr "이혼"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Eat &amp; Drink"
-msgstr "먹기 &amp; 마시기"
+msgstr ""
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
@@ -981,7 +979,7 @@ msgstr "비상 전화"
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Employee"
-msgstr "임직원"
+msgstr "직원"
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_employee_category
@@ -1052,7 +1050,7 @@ msgstr "직원 이름"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form
 msgid "Employee(s)"
-msgstr "임직원"
+msgstr "직원"
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.act_employee_from_department
@@ -1074,7 +1072,7 @@ msgstr "임직원"
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_tree
 #: model_terms:ir.ui.view,arch_db:hr.view_partner_tree2
 msgid "Employees"
-msgstr "임직원 관리"
+msgstr "직원"
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.open_view_employee_tree
@@ -1108,7 +1106,7 @@ msgstr "회사에 연결된 주소가 아닌 직원의 개인 주소를 여기�
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Evolution"
-msgstr "발전"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job__no_of_recruitment
@@ -1173,7 +1171,7 @@ msgstr "팔로워 (협력사)"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Framework and/or front-end"
-msgstr "프레임 워크 및/또는 프론트 엔드"
+msgstr ""
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1184,7 +1182,7 @@ msgstr "프레임 워크 및/또는 프론트 엔드"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Fruit Basket, coffee and soup provided all day"
-msgstr "하루 종일 과일, 커피 및 수프 제공"
+msgstr ""
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
@@ -1213,7 +1211,7 @@ msgstr "생성"
 msgid ""
 "Great <b>team</b> of experienced people in a friendly, supporting and open "
 "culture"
-msgstr "친절하고 도움을 주며 열린 문화에서 경험이 풍부한 사람들로 구성된 훌륭한 <b>팀</b>"
+msgstr ""
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1224,14 +1222,14 @@ msgstr "친절하고 도움을 주며 열린 문화에서 경험이 풍부한 �
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Great Work Place"
-msgstr "훌륭한 직장"
+msgstr ""
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_search
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 #: model_terms:ir.ui.view,arch_db:hr.view_job_filter
 msgid "Group By"
-msgstr "그룹별"
+msgstr "그룹화"
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_department
@@ -1260,12 +1258,12 @@ msgstr "고용 직원"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__hr_presence_state
 #: model:ir.model.fields,field_description:hr.field_res_users__hr_presence_state
 msgid "Hr Presence State"
-msgstr "임직원 현재 상태"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_hr_main
 msgid "Human Resources"
-msgstr "인적 자원"
+msgstr "인사"
 
 #. module: hr
 #: model:hr.job,name:hr.job_hrm
@@ -1442,14 +1440,12 @@ msgid ""
 "Join our experienced team of Python &amp; JavaScript\n"
 "                    Developers, and work on an amazing Open Source product! Develop things people care about."
 msgstr ""
-"숙련 된 Python &amp; JavaScript 개발자 팀에 합류하여 놀라운 오픈 소스 제품을 개발하십시오! \n"
-"                      사람들이 관심을 가지는 것을 개발하십시오."
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__km_home_work
 #: model:ir.model.fields,field_description:hr.field_res_users__km_home_work
 msgid "Km Home-Work"
-msgstr "회사와 집사이 거리 Km"
+msgstr ""
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1461,7 +1457,7 @@ msgstr "회사와 집사이 거리 Km"
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid ""
 "Large apps scope - <b>Diversity</b> in the job, you'll never get bored​"
-msgstr "광범위한 앱 범위 - 작업의 <b>다양성</b>, 결코 지루하지 않습니다."
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__last_activity
@@ -1477,7 +1473,7 @@ msgstr "최근 활동"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__last_activity_time
 #: model:ir.model.fields,field_description:hr.field_res_users__last_activity_time
 msgid "Last Activity Time"
-msgstr "최근 활동 시간"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department____last_update
@@ -1587,7 +1583,7 @@ msgstr "관리자"
 #: code:addons/hr/models/hr_plan.py:0
 #, python-format
 msgid "Manager of employee %s is not set."
-msgstr "%s 직원의 부서장이 설정되지 않습니다."
+msgstr "%s 직원의 관리자가 설정되지 않습니다."
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__marital
@@ -1640,14 +1636,14 @@ msgstr "메시지"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Must Have"
-msgstr "당연 사항"
+msgstr ""
 
 #. module: hr
 #. openerp-web
 #: code:addons/hr/static/src/xml/hr_templates.xml:0
 #, python-format
 msgid "My Profile"
-msgstr "개인 프로필"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__name
@@ -1696,7 +1692,7 @@ msgstr "다음 활동 유형"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Nice to Have"
-msgstr "반갑습니다"
+msgstr ""
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1709,7 +1705,7 @@ msgstr "반갑습니다"
 msgid ""
 "No customer deadlines - Time to focus on <b>quality</b>, refactoring and "
 "testing"
-msgstr "고객 마감시한 없음 - <b>품질</b>, 리팩토링 및 테스트에 집중할 시간"
+msgstr ""
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1720,7 +1716,7 @@ msgstr "고객 마감시한 없음 - <b>품질</b>, 리팩토링 및 테스트�
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "No solution architect, no business analysts, no Gantt chart"
-msgstr "솔루션 아키텍트, 비즈니스 분석가 없음, 간트 차트 없음"
+msgstr ""
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1731,13 +1727,13 @@ msgstr "솔루션 아키텍트, 비즈니스 분석가 없음, 간트 차트 없
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "No specific start date, we recruit all year long​"
-msgstr "구체적인 시작일이 없으며 1 년 내내 채용"
+msgstr ""
 
 #. module: hr
 #: code:addons/hr/models/hr_plan.py:0
 #, python-format
 msgid "No specific user given on activity."
-msgstr "활동에 대해 지정된 특정 사용자가 없습니다."
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_job__state__open
@@ -1824,7 +1820,7 @@ msgid ""
 "Odoo's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves, recruitments, etc."
-msgstr "Odoo의 부서 구조는 부서별 직원 관련 문서 : 비용, 작업기록표, 휴가, 채용 등을 관리하는 데 사용됩니다."
+msgstr "Odoo의 부서 구조는 부서별 직원 관련 문서 : 비용, 작입기록표, 휴가, 채용 등을 관리하는 데 사용됩니다."
 
 #. module: hr
 #: model:res.groups,name:hr.group_hr_user
@@ -1834,7 +1830,7 @@ msgstr "부서장"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__module_hr_org_chart
 msgid "Organizational Chart"
-msgstr "조직도"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__image_1920
@@ -1857,7 +1853,7 @@ msgstr "사원번호"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "PIN Code"
-msgstr "핀 코드"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__pin
@@ -1884,7 +1880,7 @@ msgstr "사용자의 협력사 관련 데이터"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Passion for development"
-msgstr "개발에 대한 열정"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__passport_id
@@ -1943,7 +1939,7 @@ msgstr "계획"
 #: model:ir.actions.act_window,name:hr.hr_plan_activity_type_action
 #: model:ir.ui.menu,name:hr.menu_config_plan_types
 msgid "Planning Types"
-msgstr "계획 유형"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_config_plan_plan
@@ -1997,7 +1993,7 @@ msgstr "현재 상태 보고 화면, 이메일 및 IP 주소 제어."
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_base__hr_presence_state__present
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__hr_presence_state__present
 msgid "Present"
-msgstr "출근"
+msgstr ""
 
 #. module: hr
 #: model:ir.actions.report,name:hr.hr_employee_print_badge
@@ -2037,7 +2033,7 @@ msgstr "개인 전화"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Product Complexity:"
-msgstr "제품 복잡도 :"
+msgstr ""
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2063,9 +2059,6 @@ msgid ""
 "                    mapping)<br>Collaboration platform: GitHub<br>Development model: open with external\n"
 "                    community<br>Framework: Odoo (ORM, Workflows, Report Engine, BI)"
 msgstr ""
-"프로그래밍 언어 : Python &amp; JavaScript<br> 데이터베이스 : postgresql (객체 관계형 매핑 포함)<br>\n"
-"협업 플랫폼 : GitHub<br> 개발 모델 : 외부 커뮤니티와 개방<br>\n"
-"프레임 워크 : Odoo (ORM, 워크 플로우, 보고서 엔진, BI)"
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_employee_public
@@ -2081,7 +2074,7 @@ msgstr "공무원"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Python, JavaScript"
-msgstr "Python, JavaScript"
+msgstr ""
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2092,7 +2085,7 @@ msgstr "Python, JavaScript"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Quality of Product / Tools:"
-msgstr "제품 / 도구 품질 :"
+msgstr ""
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2103,7 +2096,7 @@ msgstr "제품 / 도구 품질 :"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Quick &amp; Autonomous learner"
-msgstr "빠르고 &amp; 자율적인 학습자"
+msgstr ""
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2114,7 +2107,7 @@ msgstr "빠르고 &amp; 자율적인 학습자"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Read &amp; Written English"
-msgstr "영어 읽고 &amp; 쓰기"
+msgstr ""
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.action_hr_job
@@ -2130,7 +2123,7 @@ msgstr "더 효율적으로 채용할 준비가 되셨습니까?"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Real responsibilities and <b>autonomy</b>"
-msgstr "진정한 책임과 <b>자율성</b>"
+msgstr ""
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2179,7 +2172,7 @@ msgstr "접근 권한을 관리할 자원의 관련 사용자 이름."
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Release Cycle:"
-msgstr "출시 주기 :"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.hr_menu_hr_reports
@@ -2209,7 +2202,7 @@ msgstr "자원"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__resource_calendar_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__resource_calendar_id
 msgid "Resource Calendar"
-msgstr "자원 일정표"
+msgstr "자원 달력"
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2293,7 +2286,7 @@ msgstr "이 직무와 관련해서 채용을 진행할 지 여부를 설정하�
 #: model:ir.ui.menu,name:hr.hr_menu_configuration
 #: model_terms:ir.ui.view,arch_db:hr.hr_department_view_kanban
 msgid "Settings"
-msgstr "설정"
+msgstr "환경 설정"
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2304,7 +2297,7 @@ msgstr "설정"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Several programming languages &amp; Expert in one specific language"
-msgstr "특정 언어의 여러 프로그래밍 언어 &amp; 전문가"
+msgstr ""
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
@@ -2319,7 +2312,7 @@ msgstr "미혼"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__module_hr_skills
 msgid "Skills Management"
-msgstr "기술 관리"
+msgstr "관리 기술"
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__sinid
@@ -2345,7 +2338,7 @@ msgstr "직원과 연결되지 않은 경우 특정 활동에 책임이 있습�
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Sport Activity"
-msgstr "스포츠 활동"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__spouse_birthdate
@@ -2435,8 +2428,6 @@ msgid ""
 "The\n"
 "                            founder’s story"
 msgstr ""
-"창립자 \n"
-"                           이야기"
 
 #. module: hr
 #: model:ir.model.constraint,message:hr.constraint_hr_employee_barcode_uniq
@@ -2454,7 +2445,7 @@ msgstr "배지 ID는 고유해야 합니다. 이 ID는 이미 다른 직원에�
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "The Odoo culture"
-msgstr "Odoo 문화"
+msgstr ""
 
 #. module: hr
 #: code:addons/hr/models/hr_employee.py:0
@@ -2474,7 +2465,7 @@ msgstr "직원 주소에 회사가 연결되어 있습니다."
 msgid ""
 "The fields \"%s\" you try to read is not available on the public employee "
 "profile."
-msgstr "읽으려는 \"%s\" 필드는 일반 직원 프로파일에서 사용할 수 없습니다."
+msgstr ""
 
 #. module: hr
 #: model:ir.model.constraint,message:hr.constraint_hr_job_name_company_uniq
@@ -2491,7 +2482,7 @@ msgstr "사용자는 직원이 작성한 문서를 승인할 수 있습니다."
 msgid ""
 "The user will have access to the human resources configuration as well as "
 "statistic reports."
-msgstr "사용자는 통계 보고서뿐만 아니라 인적 자원 환경 설정에 접근할 수 있습니다."
+msgstr "사용자는 통계 보고서뿐만 아니라 인적 자원 구성에 접근할 수 있다."
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__tz
@@ -2570,13 +2561,13 @@ msgstr "%s 직원과 연결된 사용자가 필요합니다."
 #: code:addons/hr/models/hr_plan.py:0
 #, python-format
 msgid "User of coach of employee %s is not set."
-msgstr "%s 직원의 상급자가 설정되지 않습니다."
+msgstr "%s 직원의 상급자로 사용자가 설정되지 않습니다."
 
 #. module: hr
 #: code:addons/hr/models/hr_plan.py:0
 #, python-format
 msgid "User of manager of employee %s is not set."
-msgstr "%s 직원의 부서장이 설정되지 않았습니다."
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__user_partner_id
@@ -2597,7 +2588,7 @@ msgstr "사용자"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Users of the Product:"
-msgstr "제품 사용자 :"
+msgstr ""
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_job_view_kanban
@@ -2608,7 +2599,7 @@ msgstr "공석 :"
 #: model:ir.model.fields,field_description:hr.field_res_company__hr_presence_control_ip_list
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__hr_presence_control_ip_list
 msgid "Valid IP addresses"
-msgstr "유효한 IP 주소"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__visa_expire
@@ -2642,7 +2633,7 @@ msgstr "사람들이 우리에 대해 어떻게 말합니까?"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "What's great in the job?"
-msgstr "직장에서 무엇이 좋습니까?"
+msgstr ""
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2656,8 +2647,6 @@ msgid ""
 "Who is your\n"
 "                            manager?"
 msgstr ""
-"귀하의 관리자가\n"
-"                              누구입니까?"
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__marital__widower
@@ -2683,9 +2672,6 @@ msgid ""
 "               can easily find all the information you need for each person;\n"
 "               contact data, job position, availability, etc."
 msgstr ""
-"Odoo 직원 화면을 간단히 살펴보면 \n"
-"                 각 개인에게 필요한 모든 정보를 쉽게 찾을 수 있습니다 : \n"
-"                 연락처 데이터, 직책, 가용성 등"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__address_id
@@ -2760,7 +2746,7 @@ msgstr "업무 전화"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Working Environment"
-msgstr "근무 환경"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__resource_calendar_id
@@ -2773,7 +2759,7 @@ msgstr "작업 시간"
 msgid ""
 "You are only allowed to update your preferences. Please contact a HR officer"
 " to update other informations."
-msgstr "개인 설정만 업데이트 할 수 있습니다. 다른 정보를 업데이트하려면 인사 담당자에게 문의하십시오."
+msgstr ""
 
 #. module: hr
 #: code:addons/hr/models/hr_department.py:0
@@ -2791,7 +2777,7 @@ msgstr "재귀 부서는 만들 수 없습니다."
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid ""
 "You develop an <b>Open Source</b> Software and interact with the community"
-msgstr "<b>오픈 소스</b> 소프트웨어를 개발하고 커뮤니티와 상호 작용"
+msgstr ""
 
 #. module: hr
 #: model:mail.template,subject:hr.mail_template_data_unknown_employee_email_address
@@ -2816,4 +2802,4 @@ msgstr "예 : 영업 관리자"
 #. module: hr
 #: model:ir.model,name:hr.model_hr_plan
 msgid "plan"
-msgstr "계획"
+msgstr ""

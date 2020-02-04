@@ -20,8 +20,8 @@
 # Johanna Valkonen <johanna.valkonen@sv-oy.fi>, 2019
 # Simo Suurla <simo@suurla.fi>, 2019
 # Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2019
-# Retropikzel, 2019
-# Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2020
+# Joona Isoaho, 2019
+# Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -29,7 +29,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 09:01+0000\n"
 "PO-Revision-Date: 2019-08-26 09:16+0000\n"
-"Last-Translator: Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2020\n"
+"Last-Translator: Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2019\n"
 "Language-Team: Finnish (https://www.transifex.com/odoo/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,12 +40,12 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 msgid "\" category."
-msgstr "\" kategoria."
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.option_collapse_categories_recursive
 msgid "#{'Unfold' if c.id in category.parents_and_self.ids else 'Fold'}"
-msgstr "#{'Levitä' if c.id in category.parents_and_self.ids else 'Laskosta'}"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation
@@ -56,7 +56,7 @@ msgstr "&amp; Toimitus"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
 msgid "/shop/address"
-msgstr "/shop/address"
+msgstr ""
 
 #. module: website_sale
 #: model:product.template.attribute.value,name:website_sale.product_1_attribute_3_value_1
@@ -75,9 +75,6 @@ msgid ""
 "                              Free Shipping in U.S.<br/>\n"
 "                              Buy now, get in 2 days"
 msgstr ""
-"30 päivän rahat takaisin -takuu<br/>\n"
-"                              Ilmainen toimitus Yhdysvalloissa <br/>\n"
-"                              Toimitus kahdessa päivässä"
 
 #. module: website_sale
 #: model:mail.template,body_html:website_sale.mail_template_sale_cart_recovery
@@ -259,7 +256,7 @@ msgstr "<i class=\"fa fa-print\"/> Tulosta"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "<i class=\"fa fa-search\"/> Products Search Bar"
-msgstr "<i class=\"fa fa-search\"/> Tuotehaku"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.header
@@ -273,7 +270,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "<i class=\"fa fa-shopping-cart\"/> Add to Cart"
-msgstr "<i class=\"fa fa-shopping-cart\"/> Lisää ostoskoriin"
+msgstr ""
 
 #. module: website_sale
 #: code:addons/website_sale/models/crm_team.py:0
@@ -331,8 +328,6 @@ msgid ""
 "<span class=\"fa fa-chevron-left p-2\" role=\"img\" aria-label=\"Previous\" "
 "title=\"Previous\"/>"
 msgstr ""
-"<span class=\"fa fa-chevron-left p-2\" role=\"img\" aria-label=\"Previous\" "
-"title=\"Previous\"/>"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.cart
@@ -363,8 +358,6 @@ msgid ""
 "<span class=\"fa fa-chevron-right p-2\" role=\"img\" aria-label=\"Next\" "
 "title=\"Next\"/>"
 msgstr ""
-"<span class=\"fa fa-chevron-right p-2\" role=\"img\" aria-label=\"Next\" "
-"title=\"Next\"/>"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -381,13 +374,11 @@ msgid ""
 "<span class=\"o_form_label\">Assignation</span>\n"
 "                            <span class=\"fa fa-lg fa-globe\" title=\"Values set here are website-specific.\" groups=\"website.group_multi_website\"/>"
 msgstr ""
-"<span class=\"o_form_label\">Oletusvastuu</span>\n"
-"                            <span class=\"fa fa-lg fa-globe\" title=\"Values set here are website-specific.\" groups=\"website.group_multi_website\"/>"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "<span class=\"o_form_label\">Confirmation Email</span>"
-msgstr "<span class=\"o_form_label\">Vahvistusviesti</span>"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -430,7 +421,7 @@ msgstr "<span>Jatka tilaamaan</span>"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.view_product_image_form
 msgid "<span>Video Preview</span>"
-msgstr "<span>Esikatseluvideo</span>"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.payment_confirmation_status
@@ -505,7 +496,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "A short description that will also appear on documents."
-msgstr "Lyhyt kuvaus joka näkyy myös dokumenteilla."
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -517,7 +508,7 @@ msgstr "YHTEENVETO"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.view_sales_order_filter_ecommerce
 msgid "Abandoned"
-msgstr "Abandoned"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_sale_order__is_abandoned_cart
@@ -561,7 +552,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_image_view_kanban
 msgid "Acceptable file size"
-msgstr "Hyväksytty tiedoston koko"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_product__accessory_product_ids
@@ -570,8 +561,6 @@ msgid ""
 "Accessories show up when the customer reviews the cart before payment "
 "(cross-sell strategy)."
 msgstr ""
-"Lisävarusteet näytetään kun asiakas tarkistaa ostoskorin ennen maksua "
-"(ristikkäismyntistrategia)."
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product__accessory_product_ids
@@ -595,7 +584,7 @@ msgstr "Lisää yksi"
 #: code:addons/website_sale/static/src/xml/website_sale.editor.xml:0
 #, python-format
 msgid "Add product suggestions"
-msgstr "Lisää tuote-ehdotus"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -617,14 +606,14 @@ msgstr "Kaikki tuotteet"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website__all_pricelist_ids
 msgid "All pricelists"
-msgstr "Kaikki hinnastot"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_utils.xml:0
 #, python-format
 msgid "All results"
-msgstr "Kaikki tulokset"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -671,12 +660,12 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Apply specific prices per country, discounts, etc."
-msgstr "Käytä alennuksia, maakohtaisia hintoja, yms."
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Assignation of online orders"
-msgstr "Verkkotilausten vastuuttaminen"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.menu,name:website_sale.menu_product_attribute_action
@@ -705,12 +694,12 @@ msgstr "Huomio!"
 #. module: website_sale
 #: model:res.country.group,name:website_sale.benelux
 msgid "BeNeLux"
-msgstr "Benelux"
+msgstr ""
 
 #. module: website_sale
 #: model:product.pricelist,name:website_sale.list_benelux
 msgid "Benelux"
-msgstr "Benelux"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -768,7 +757,7 @@ msgstr "Kampanjat"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image__can_image_1024_be_zoomed
 msgid "Can Image 1024 be zoomed"
-msgstr "Voiko kuvaa 1024 zoomata"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -832,13 +821,11 @@ msgid ""
 "Categories are used to browse your products through the\n"
 "            touchscreen interface."
 msgstr ""
-"Kategorioita käytetään tuotteiden selailuun\n"
-"            kosketusnäytöllä."
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category__website_description
 msgid "Category Description"
-msgstr "Kategorian kuvaus"
+msgstr ""
 
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_chairs
@@ -860,14 +847,14 @@ msgstr "Valitse maksutapa"
 #: code:addons/website_sale/static/src/js/website_sale.editor.js:0
 #, python-format
 msgid "Choose number of products"
-msgstr "Valitse tuotteiden määrä"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale.editor.xml:0
 #, python-format
 msgid "Choose the number of products to display"
-msgstr "Valitse näytettävien tuotteiden määrä"
+msgstr ""
 
 #. module: website_sale
 #: model:product.pricelist,name:website_sale.list_christmas
@@ -1068,7 +1055,7 @@ msgstr "Asiakkaat"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "DHL"
-msgstr "DHL"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website__currency_id
@@ -1085,7 +1072,7 @@ msgstr "Oletushinnasto"
 #: code:addons/website_sale/static/src/xml/website_sale.editor.xml:0
 #, python-format
 msgid "Default order"
-msgstr "Oletusjärjestys"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.actions.act_window,help:website_sale.product_public_category_action
@@ -1155,7 +1142,7 @@ msgstr "Näyttönimi"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Display a prompt with optional products when adding to cart"
-msgstr "Ehdota valinnaisia tuotteita ostoskoriin lisättäessä"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -1164,7 +1151,7 @@ msgstr "Ehdota valinnaisia tuotteita ostoskoriin lisättäessä"
 #: code:addons/website_sale/static/src/xml/website_sale.editor.xml:0
 #, python-format
 msgid "Display product"
-msgstr "Näytä tuote"
+msgstr ""
 
 #. module: website_sale
 #: code:addons/website_sale/models/digest.py:0
@@ -1216,7 +1203,7 @@ msgstr "EUR"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Easypost"
-msgstr "Easypost"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.payment_confirmation_status
@@ -1257,12 +1244,12 @@ msgstr "Sähköpostin ohjattu koostaminen"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Email sent to the customer after the checkout"
-msgstr "Asiakkaalle tilauksen jälkeen lähetettävä posti"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image__embed_code
 msgid "Embed Code"
-msgstr "Upota koodi"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -1302,7 +1289,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "FedEx"
-msgstr "FedEx"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.view_sales_order_filter_ecommerce
@@ -1361,7 +1348,7 @@ msgstr "HTTP-reititys"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_image_view_kanban
 msgid "Huge file size. The image should be optimized/reduced."
-msgstr "Suuri tiedostokoko. Kuvaa kannattaa optimoida/pienentää."
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.payment_sale_note
@@ -1407,25 +1394,25 @@ msgstr "Kuva"
 #: model:ir.model.fields,field_description:website_sale.field_product_image__image_1024
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category__image_1024
 msgid "Image 1024"
-msgstr "Kuva 1024"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image__image_128
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category__image_128
 msgid "Image 128"
-msgstr "Kuva 128"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image__image_256
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category__image_256
 msgid "Image 256"
-msgstr "Kuva 256"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image__image_512
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category__image_512
 msgid "Image 512"
-msgstr "Kuva 512"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.view_product_image_form
@@ -1468,7 +1455,7 @@ msgstr ""
 #: code:addons/website_sale/models/sale_order.py:0
 #, python-format
 msgid "It is forbidden to modify a sales order which is not in draft status."
-msgstr "Vain luonnos-tilassa olevaa tilausta saa muokata."
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_account_move
@@ -1483,12 +1470,12 @@ msgstr "Juuri tehty"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_digest_digest__kpi_website_sale_total_value
 msgid "Kpi Website Sale Total Value"
-msgstr "KPI Verkkosivun myyntien kokonaisarvo"
+msgstr ""
 
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_lamps
 msgid "Lamps"
-msgstr "Lamput"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image____last_update
@@ -1523,7 +1510,7 @@ msgstr "Viimeksi päivitetty"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Let returning shoppers save products in a wishlist"
-msgstr "Salli palaavien asiakkaiden tallentaa tuotteita toivelistalle"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -1535,7 +1522,7 @@ msgstr "Anna asiakkaan kertoa toimitusosoite"
 #: code:addons/website_sale/static/src/js/tours/website_sale_shop.js:0
 #, python-format
 msgid "Let's create your first product."
-msgstr "Luodaan ensimmäinen tuotteesi."
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -1549,7 +1536,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_sale_order_line__linked_line_id
 msgid "Linked Order Line"
-msgstr "Liittyvä tilausrivi"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.add_grid_or_list_option
@@ -1564,7 +1551,7 @@ msgstr "Kirjaudu sisään"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Manage availability of products"
-msgstr "Hallitse tuotteiden saatavuutta"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -1576,7 +1563,7 @@ msgstr "Hallitse mainos &amp: kupongiohjelmia"
 #: code:addons/website_sale/static/src/xml/website_sale.editor.xml:0
 #, python-format
 msgid "Maximum number of products to display"
-msgstr "Näytettävien tuotteiden maksimimäärä"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -1588,7 +1575,7 @@ msgstr "Media"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_sale_payment_acquirer_onboarding_wizard__paypal_seller_account
 msgid "Merchant Account ID"
-msgstr "Kauppian tilin ID"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_sale_payment_acquirer_onboarding_wizard__manual_name
@@ -1598,7 +1585,7 @@ msgstr "Maksutapa"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_multimedia
 msgid "Multimedia"
-msgstr "Multimedia"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -1621,17 +1608,17 @@ msgstr "Nimi"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_sale_order_line__name_short
 msgid "Name Short"
-msgstr "Lyhyt nimi"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.sort
 msgid "Name: A to Z"
-msgstr "Nimi: A-Ö"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.sort
 msgid "Name: Z to A"
-msgstr "Nimi: Ö-A"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -1657,17 +1644,17 @@ msgstr "Seuraava <span class=\"fa fa-chevron-right\"/>"
 #: model_terms:ir.actions.act_window,help:website_sale.action_abandoned_orders_ecommerce
 #: model_terms:ir.actions.act_window,help:website_sale.action_view_abandoned_tree
 msgid "No abandoned carts found"
-msgstr "Hylättyjä ostoskoreja ei löydy"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 msgid "No product defined"
-msgstr "Tuotetta ei ole asetettu"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 msgid "No product defined in category \""
-msgstr "Tuotetta ei ole määritetty kategoriassa \""
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.actions.act_window,help:website_sale.website_sale_visitor_product_action
@@ -1677,19 +1664,19 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 msgid "No results"
-msgstr "Ei tuloksia"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 msgid "No results for \""
-msgstr "Ei tuloksia haulle \""
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_utils.xml:0
 #, python-format
 msgid "No results found. Please try another search."
-msgstr "Ei tuloksia. Koita toista hakusanaa."
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields.selection,name:website_sale.selection__res_config_settings__sale_delivery_settings__none
@@ -1704,7 +1691,7 @@ msgstr "Ei valmis"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_crm_team__abandoned_carts_count
 msgid "Number of Abandoned Carts"
-msgstr "Hylättyjen ostoskorien määrä"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website__shop_ppr
@@ -1836,28 +1823,28 @@ msgstr "Yhteenveto"
 #: code:addons/website_sale/static/src/xml/website_sale.editor.xml:0
 #, python-format
 msgid "Order by name (A-Z)"
-msgstr "Nimikejärjestys (A-Ö)"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale.editor.xml:0
 #, python-format
 msgid "Order by name (Z-A)"
-msgstr "Nimikejärjestys (Ö-A)"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale.editor.xml:0
 #, python-format
 msgid "Order by price: high to low"
-msgstr "Hintajärjestys: korkeasta matalaan"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale.editor.xml:0
 #, python-format
 msgid "Order by price: low to high"
-msgstr "Hintajärjestys: matalasta korkeaan"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -2132,12 +2119,12 @@ msgstr "Tuotevariaatiot"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_visitor__visitor_product_count
 msgid "Product Views"
-msgstr "Tuotteen katselukerrat"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.actions.act_window,name:website_sale.website_sale_visitor_product_action
 msgid "Product Views History"
-msgstr "Tuotteen katselukertojen historia"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.404
@@ -2152,7 +2139,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.website_sale_visitor_view_form
 msgid "Product views"
-msgstr "Tuotteen katselukerrat"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.actions.act_window,name:website_sale.product_template_action_website
@@ -2170,12 +2157,12 @@ msgstr "Tuotteet"
 #: code:addons/website_sale/static/src/js/website_sale.editor.js:0
 #, python-format
 msgid "Products Search Bar"
-msgstr "Tuotteiden hakupalkki"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_visitor__product_count
 msgid "Products Views"
-msgstr "Tuotteiden katselukerrat"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -2247,17 +2234,17 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.s_products_recently_viewed
 msgid "Recently viewed Products"
-msgstr "Viimeksi katsottuja tuotteita"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.view_sales_order_filter_ecommerce_abondand
 msgid "Recovery Email Sent"
-msgstr "Palautusposti lähetetty"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.view_sales_order_filter_ecommerce_abondand
 msgid "Recovery Email to Send"
-msgstr "Lähetettävä palautusposti"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.cart_lines
@@ -2340,7 +2327,7 @@ msgstr "Myyntitilausrivi"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.sale_report_view_pivot_website
 msgid "Sales Report"
-msgstr "Myyntiraportti"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -2380,7 +2367,7 @@ msgstr "Tallennetut maksutiedot"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.view_sales_order_filter_ecommerce_abondand
 msgid "Search Abandoned Sales Orders"
-msgstr "Hae hylätyistä myyntitilauksista"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -2522,12 +2509,12 @@ msgstr "Ostoskori"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products_categories
 msgid "Show categories"
-msgstr "Näytä kategoriat"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products_attributes
 msgid "Show options"
-msgstr "Näytä vaihtoehdot"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation
@@ -2585,7 +2572,7 @@ msgstr "Järjestys:"
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:0
 #, python-format
 msgid "Sources"
-msgstr "Lähteet"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
@@ -2675,7 +2662,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.terms
 msgid "Terms &amp;amp; Conditions"
-msgstr "Käyttöehdot"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation
@@ -2685,7 +2672,7 @@ msgstr "Kiitos tilauksestasi."
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.brand_promotion
 msgid "The #1"
-msgstr "Numero #1"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.terms
@@ -2791,7 +2778,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.cart
 msgid "This is your current cart."
-msgstr "Tämä on nykyinen ostoskorisi."
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
@@ -2826,12 +2813,12 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.cart_popover
 msgid "True"
-msgstr "Tosi"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "UPS"
-msgstr "UPS"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_image__video_url
@@ -2841,7 +2828,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "USPS"
-msgstr "USPS"
+msgstr ""
 
 #. module: website_sale
 #: model:product.product,uom_name:website_sale.product_product_1
@@ -2888,7 +2875,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_sale.field_product_image__video_url
 #: model_terms:ir.ui.view,arch_db:website_sale.view_product_image_form
 msgid "Video URL"
-msgstr "Videon URL"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.cart_popover
@@ -2898,23 +2885,23 @@ msgstr "Ostoskori ("
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_website_track
 msgid "Visited Pages"
-msgstr "Vieraillut sivut"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_visitor__product_ids
 #: model_terms:ir.ui.view,arch_db:website_sale.website_sale_visitor_view_kanban
 msgid "Visited Products"
-msgstr "Vieraillut tuotteet"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.website_sale_visitor_page_view_graph
 msgid "Visitor Product Views"
-msgstr "Vierailijan tuotteen katselukerrat"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.website_sale_visitor_page_view_tree
 msgid "Visitor Product Views History"
-msgstr "Vierailijan tuotteen katseluhistoria"
+msgstr ""
 
 #. module: website_sale
 #: model:product.product,name:website_sale.product_product_1
@@ -2994,7 +2981,7 @@ msgstr "Verkkosivuston osoite"
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_website_visitor
 msgid "Website Visitor"
-msgstr "Verkkosivun vierailija"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category__website_meta_description
@@ -3039,7 +3026,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__module_website_sale_wishlist
 msgid "Wishlists"
-msgstr "Toivelistat"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -3134,14 +3121,14 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "bpost"
-msgstr "bpost"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale.editor.xml:0
 #, python-format
 msgid "by default"
-msgstr "oletuksena"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.coupon_form
@@ -3153,7 +3140,7 @@ msgstr "koodi..."
 #: code:addons/website_sale/static/src/xml/website_sale.editor.xml:0
 #, python-format
 msgid "description"
-msgstr "kuvaus"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.menu,name:website_sale.menu_ecommerce_settings
@@ -3185,12 +3172,12 @@ msgstr "löytyi)"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "hours."
-msgstr "tuntia."
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.cart
 msgid "if you want to merge your previous cart into current cart."
-msgstr "jos haluat yhdistää edellisen ostoskorisi nykyiseen ostoskoriin."
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.cart
@@ -3198,20 +3185,18 @@ msgid ""
 "if you want to restore your previous cart. Your current cart will be "
 "replaced with your previous cart."
 msgstr ""
-"jos halaut palauttaa edellisen ostoskorisi. Nykyinen ostoskorisi korvataan "
-"edellisellä ostoskorillasi."
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale.editor.xml:0
 #, python-format
 msgid "image"
-msgstr "kuva"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 msgid "in category \""
-msgstr "kategoriassa \""
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.cart_popover
@@ -3221,12 +3206,12 @@ msgstr "tuotetta)"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "ml-2"
-msgstr "ml-2"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 msgid "mt-2 ml-md-2"
-msgstr "mt-2 ml-md-2"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
@@ -3238,12 +3223,12 @@ msgstr "uusi osoite"
 #: code:addons/website_sale/static/src/xml/website_sale.editor.xml:0
 #, python-format
 msgid "price"
-msgstr "hinta"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.payment_sale_note
 msgid "terms &amp; conditions"
-msgstr "käyttöehdot"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation
@@ -3253,7 +3238,7 @@ msgstr "seurataksesi lähetystäsi."
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 msgid "w-100 w-md-auto mt-2"
-msgstr "w-100 w-md-auto mt-2"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.brand_promotion

@@ -435,15 +435,13 @@ MailManager.include({
      * @param {integer} partnerID
      * @returns {Promise<integer>} resolved with ID of the DM chat
      */
-    _openAndDetachDMChat: async function (partnerID) {
-        const data = await this._rpc({
+    _openAndDetachDMChat: function (partnerID) {
+        return this._rpc({
             model: 'mail.channel',
-            method: config.device.isMobile ? 'channel_get' : 'channel_get_and_minimize',
+            method: 'channel_get_and_minimize',
             args: [[partnerID]],
-        });
-        const channelID = await this._addChannel(data);
-        const channel = this.getChannel(channelID);
-        channel.detach();
+        })
+        .then(this._addChannel.bind(this));
     },
     /**
      * On opening a new thread window, place it with other thread windows:

@@ -113,14 +113,12 @@ var StatementAction = AbstractAction.extend({
         var def = this.model.load(this.params.context).then(this._super.bind(this));
         return def.then(function () {
                 if (!self.model.context || !self.model.context.active_id) {
-                    self.model.context = {'active_id': self.params.context.active_id,
-                                          'active_model': self.params.context.active_model};
+                    self.model.context = {'active_id': self.params.context.active_id};
                 }
                 if (self.params.context.journal_id) {
                     self.model.context.active_id = self.params.context.journal_id;
-                    self.model.context.active_model = 'account.journal';
                 }
-                if (self.model.context.active_id && self.model.context.active_model === 'account.journal') {
+                if (self.model.context.active_id) {
                     var promise = self._rpc({
                             model: 'account.journal',
                             method: 'read',

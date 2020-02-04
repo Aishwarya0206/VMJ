@@ -138,28 +138,35 @@ tour.register('website_reset_password', {
         },
     },
     {
-        content: "fill new password",
-        trigger: '.oe_reset_password_form input[name="password"]',
-        run: "text adminadmin"
+        content: "fill new password and submit",
+        trigger: '.oe_reset_password_form',
+        run: function () {
+            var $form = $('.oe_reset_password_form');
+            $form.find('input[name="password"]').val('adminadmin');
+            // password must be at least 8 if the module `auth_password_policy`
+            // is installed which is the case on runbot
+            $form.find('input[name="confirm_password"]').val('adminadmin');
+            $form.find('button[type="submit"]').click();
+        },
     },
     {
-        content: "fill confirm password",
-        trigger: '.oe_reset_password_form input[name="confirm_password"]',
-        run: "text adminadmin"
-    },
-    {
-        content: "submit reset password form",
-        trigger: '.oe_reset_password_form button[type="submit"]',
-    },
-    {
-        content: "check that we're logged in",
+        content: "check logged in, and reset admin website",
         trigger: '.oe_topbar_name:contains("Admin")',
-        run: function () {}
+        run: function () {
+            return rpc.query({
+                model: 'res.partner',
+                method: 'name_search',
+                kwargs: {'name': 'Admin'},
+            }).then(function (res) {
+                return rpc.query({
+                    'model': 'res.partner',
+                    'method': 'write',
+                    'args': [[res[0][0]], {
+                        'website_id': false,
+                    }],
+                });
+            });
+        },
     },
-    {
-        content: "in community wait for chatter to be loaded",
-        trigger: 'li.breadcrumb-item:contains("#Inbox")',
-        edition: 'community'
-    }
 ]);
 });

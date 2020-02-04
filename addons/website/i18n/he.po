@@ -2322,7 +2322,7 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.backend.xml:0
 #, python-format
 msgid "Go to"
-msgstr "עבור ל "
+msgstr ""
 
 #. module: website
 #. openerp-web

@@ -2,16 +2,12 @@
 # This file contains the translation of the following modules:
 # 	* base_gengo
 # 
-# Translators:
-# Avinash N K <avinashnk94@gmail.com>, 2020
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-22 08:19+0000\n"
 "PO-Revision-Date: 2019-08-26 09:09+0000\n"
-"Last-Translator: Avinash N K <avinashnk94@gmail.com>, 2020\n"
 "Language-Team: Malayalam (https://www.transifex.com/odoo/teams/41243/ml/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,7 +70,7 @@ msgstr ""
 #. module: base_gengo
 #: model_terms:ir.ui.view,arch_db:base_gengo.base_gengo_translation_wizard_from
 msgid "Cancel"
-msgstr "റദ്ദാക്കുക"
+msgstr ""
 
 #. module: base_gengo
 #: model:ir.model.fields,help:base_gengo.field_res_company__gengo_sandbox
@@ -108,27 +104,27 @@ msgstr ""
 #. module: base_gengo
 #: model:ir.model,name:base_gengo.model_res_company
 msgid "Companies"
-msgstr "കമ്പനികൾ"
+msgstr ""
 
 #. module: base_gengo
 #: model:ir.model,name:base_gengo.model_res_config_settings
 msgid "Config Settings"
-msgstr "ക്രമീകരണങ്ങൾ ക്രമീകരിക്കുക"
+msgstr ""
 
 #. module: base_gengo
 #: model:ir.model.fields,field_description:base_gengo.field_base_gengo_translations__create_uid
 msgid "Created by"
-msgstr "ഉണ്ടാക്കിയത്"
+msgstr ""
 
 #. module: base_gengo
 #: model:ir.model.fields,field_description:base_gengo.field_base_gengo_translations__create_date
 msgid "Created on"
-msgstr "സൃഷ്ടിച്ചത്"
+msgstr ""
 
 #. module: base_gengo
 #: model:ir.model.fields,field_description:base_gengo.field_base_gengo_translations__display_name
 msgid "Display Name"
-msgstr "പ്രദർശന നാമം"
+msgstr ""
 
 #. module: base_gengo
 #: model_terms:ir.ui.view,arch_db:base_gengo.view_ir_translation_inherit_base_gengo_form
@@ -213,7 +209,7 @@ msgstr ""
 #. module: base_gengo
 #: model:ir.model.fields,field_description:base_gengo.field_base_gengo_translations__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: base_gengo
 #: model:ir.model.fields,help:base_gengo.field_res_company__gengo_auto_approve
@@ -229,17 +225,17 @@ msgstr ""
 #. module: base_gengo
 #: model:ir.model.fields,field_description:base_gengo.field_base_gengo_translations____last_update
 msgid "Last Modified on"
-msgstr "അവസാനം പരിഷ്‌ക്കരിച്ചത്"
+msgstr ""
 
 #. module: base_gengo
 #: model:ir.model.fields,field_description:base_gengo.field_base_gengo_translations__write_uid
 msgid "Last Updated by"
-msgstr "അവസാനം അപ്ഡേറ്റ് ചെയ്തത്"
+msgstr ""
 
 #. module: base_gengo
 #: model:ir.model.fields,field_description:base_gengo.field_base_gengo_translations__write_date
 msgid "Last Updated on"
-msgstr "അവസാനം അപ്‌ഡേറ്റുചെയ്‌തത്"
+msgstr ""
 
 #. module: base_gengo
 #: model:ir.model.fields,field_description:base_gengo.field_base_gengo_translations__sync_limit
@@ -276,7 +272,7 @@ msgstr ""
 #. module: base_gengo
 #: model_terms:ir.ui.view,arch_db:base_gengo.base_gengo_translation_wizard_from
 msgid "Send"
-msgstr "അയയ്‌ക്കുക"
+msgstr ""
 
 #. module: base_gengo
 #: model:ir.model.fields.selection,name:base_gengo.selection__base_gengo_translations__sync_type__send

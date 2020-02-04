@@ -2,16 +2,12 @@
 # This file contains the translation of the following modules:
 # 	* website_blog
 # 
-# Translators:
-# Avinash N K <avinashnk94@gmail.com>, 2020
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-05 12:34+0000\n"
+"POT-Creation-Date: 2019-10-07 07:13+0000\n"
 "PO-Revision-Date: 2019-08-26 09:15+0000\n"
-"Last-Translator: Avinash N K <avinashnk94@gmail.com>, 2020\n"
 "Language-Team: Malayalam (https://www.transifex.com/odoo/teams/41243/ml/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -339,13 +335,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_needaction
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__message_needaction
 msgid "Action Needed"
-msgstr "പ്രവർത്തനം ആവശ്യമാണ്"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__active
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__active
 msgid "Active"
-msgstr "സജീവമാണ്"
+msgstr ""
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_tags_display
@@ -410,11 +406,9 @@ msgstr ""
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_blog_view_search
-#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_blog_form
-#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_form
 #: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_search
 msgid "Archived"
-msgstr "ശേഖരിച്ചു"
+msgstr ""
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_sidebar_blog_index_archives
@@ -459,13 +453,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_attachment_count
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__message_attachment_count
 msgid "Attachment Count"
-msgstr "അറ്റാച്ചുമെന്റ് എണ്ണം"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__author_id
 #: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_search
 msgid "Author"
-msgstr "രചയിതാവ്"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__author_avatar
@@ -687,7 +681,7 @@ msgstr ""
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
 msgid "Close"
-msgstr "അടയ്‌ക്കുക"
+msgstr ""
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_regular_cover
@@ -737,7 +731,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag__create_uid
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag_category__create_uid
 msgid "Created by"
-msgstr "ഉണ്ടാക്കിയത്"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__create_date
@@ -745,7 +739,7 @@ msgstr "ഉണ്ടാക്കിയത്"
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag__create_date
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag_category__create_date
 msgid "Created on"
-msgstr "സൃഷ്ടിച്ചത്"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__display_name
@@ -753,12 +747,12 @@ msgstr "സൃഷ്ടിച്ചത്"
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag__display_name
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag_category__display_name
 msgid "Display Name"
-msgstr "പ്രദർശന നാമം"
+msgstr ""
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_edit_options
 msgid "Duplicate"
-msgstr "തനിപ്പകർപ്പ്"
+msgstr ""
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_2
@@ -778,7 +772,7 @@ msgstr ""
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_tags_display
 msgid "Edit"
-msgstr "എഡിറ്റുചെയ്യുക"
+msgstr ""
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_tags_display
@@ -830,19 +824,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_follower_ids
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__message_follower_ids
 msgid "Followers"
-msgstr "അനുയായികൾ"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_channel_ids
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__message_channel_ids
 msgid "Followers (Channels)"
-msgstr "പിന്തുടരുന്നവർ (ചാനലുകൾ)"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_partner_ids
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "അനുയായികൾ (പങ്കാളികൾ)"
+msgstr ""
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_4
@@ -892,7 +886,7 @@ msgstr ""
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_search
 msgid "Group By"
-msgstr "ഗ്രൂപ്പ് പ്രകാരം"
+msgstr ""
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_3
@@ -934,7 +928,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag__id
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag_category__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_blog__message_needaction
@@ -942,7 +936,7 @@ msgstr "ID"
 #: model:ir.model.fields,help:website_blog.field_blog_post__message_needaction
 #: model:ir.model.fields,help:website_blog.field_blog_post__message_unread
 msgid "If checked, new messages require your attention."
-msgstr "പരിശോധിച്ചാൽ, പുതിയ സന്ദേശങ്ങൾക്ക് നിങ്ങളുടെ ശ്രദ്ധ ആവശ്യമാണ്."
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_blog__message_has_error
@@ -950,7 +944,7 @@ msgstr "പരിശോധിച്ചാൽ, പുതിയ സന്ദേശ
 #: model:ir.model.fields,help:website_blog.field_blog_post__message_has_error
 #: model:ir.model.fields,help:website_blog.field_blog_post__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr "പരിശോധിച്ചാൽ, ചില സന്ദേശങ്ങൾക്ക് ഡെലിവറി പിശക് ഉണ്ട്."
+msgstr ""
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_3
@@ -982,7 +976,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_is_follower
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__message_is_follower
 msgid "Is Follower"
-msgstr "അനുയായിയാണ്"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__is_published
@@ -1055,14 +1049,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag____last_update
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag_category____last_update
 msgid "Last Modified on"
-msgstr "അവസാനം പരിഷ്‌ക്കരിച്ചത്"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__write_uid
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag__write_uid
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag_category__write_uid
 msgid "Last Updated by"
-msgstr "അവസാനം അപ്ഡേറ്റ് ചെയ്തത്"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__write_date
@@ -1070,7 +1064,7 @@ msgstr "അവസാനം അപ്ഡേറ്റ് ചെയ്തത്"
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag__write_date
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag_category__write_date
 msgid "Last Updated on"
-msgstr "അവസാനം അപ്‌ഡേറ്റുചെയ്‌തത്"
+msgstr ""
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_cover_post
@@ -1121,7 +1115,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_main_attachment_id
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "പ്രധാന അറ്റാച്ചുമെന്റ്"
+msgstr ""
 
 #. module: website_blog
 #: model:blog.post,name:website_blog.blog_post_2
@@ -1168,13 +1162,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_has_error
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__message_has_error
 msgid "Message Delivery error"
-msgstr "സന്ദേശ ഡെലിവറി പിശക്"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_ids
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__message_ids
 msgid "Messages"
-msgstr "സന്ദേശങ്ങൾ"
+msgstr ""
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_form
@@ -1218,7 +1212,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag__name
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag_category__name
 msgid "Name"
-msgstr "പേര്"
+msgstr ""
 
 #. module: website_blog
 #. openerp-web
@@ -1271,31 +1265,31 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_needaction_counter
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__message_needaction_counter
 msgid "Number of Actions"
-msgstr "പ്രവർത്തനങ്ങളുടെ എണ്ണം"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_has_error_counter
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__message_has_error_counter
 msgid "Number of errors"
-msgstr "പിശകുകളുടെ എണ്ണം"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_blog__message_needaction_counter
 #: model:ir.model.fields,help:website_blog.field_blog_post__message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr "ഒരു പ്രവർത്തനം ആവശ്യമുള്ള സന്ദേശങ്ങളുടെ എണ്ണം"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_blog__message_has_error_counter
 #: model:ir.model.fields,help:website_blog.field_blog_post__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "ഡെലിവറി പിശകുള്ള സന്ദേശങ്ങളുടെ എണ്ണം"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_blog__message_unread_counter
 #: model:ir.model.fields,help:website_blog.field_blog_post__message_unread_counter
 msgid "Number of unread messages"
-msgstr "വായിക്കാത്ത സന്ദേശങ്ങളുടെ എണ്ണം"
+msgstr ""
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_7
@@ -1448,7 +1442,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_has_sms_error
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr "SMS ഡെലിവറി പിശക്"
+msgstr ""
 
 #. module: website_blog
 #. openerp-web
@@ -1644,7 +1638,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_tags_display
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_sidebar_blog_index_tags
 msgid "Tags"
-msgstr "ടാഗുകൾ"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__teaser
@@ -1891,13 +1885,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_unread
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__message_unread
 msgid "Unread Messages"
-msgstr "വായിക്കാത്ത സന്ദേശങ്ങൾ"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_unread_counter
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__message_unread_counter
 msgid "Unread Messages Counter"
-msgstr "വായിക്കാത്ത സന്ദേശങ്ങളുടെ ക .ണ്ടർ"
+msgstr ""
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.post_heading
@@ -1942,7 +1936,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__website_message_ids
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__website_message_ids
 msgid "Website Messages"
-msgstr "വെബ്‌സൈറ്റ് സന്ദേശങ്ങൾ"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__website_url
@@ -1953,7 +1947,7 @@ msgstr ""
 #: model:ir.model.fields,help:website_blog.field_blog_blog__website_message_ids
 #: model:ir.model.fields,help:website_blog.field_blog_post__website_message_ids
 msgid "Website communication history"
-msgstr "വെബ്‌സൈറ്റ് ആശയവിനിമയ ചരിത്രം"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__website_meta_description

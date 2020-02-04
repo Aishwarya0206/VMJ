@@ -2,16 +2,12 @@
 # This file contains the translation of the following modules:
 # 	* crm_iap_lead_website
 # 
-# Translators:
-# Avinash N K <avinashnk94@gmail.com>, 2020
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:16+0000\n"
 "PO-Revision-Date: 2019-08-26 09:09+0000\n"
-"Last-Translator: Avinash N K <avinashnk94@gmail.com>, 2020\n"
 "Language-Team: Malayalam (https://www.transifex.com/odoo/teams/41243/ml/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,12 +35,12 @@ msgstr ""
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__active
 msgid "Active"
-msgstr "സജീവമാണ്"
+msgstr ""
 
 #. module: crm_iap_lead_website
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_website.crm_reveal_rule_view_search
 msgid "Archived"
-msgstr "ശേഖരിച്ചു"
+msgstr ""
 
 #. module: crm_iap_lead_website
 #: model:ir.model,name:crm_iap_lead_website.model_crm_reveal_rule
@@ -64,7 +60,7 @@ msgstr ""
 #. module: crm_iap_lead_website
 #: model:ir.model.fields.selection,name:crm_iap_lead_website.selection__crm_reveal_rule__lead_for__companies
 msgid "Companies"
-msgstr "കമ്പനികൾ"
+msgstr ""
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields.selection,name:crm_iap_lead_website.selection__crm_reveal_rule__lead_for__people
@@ -111,12 +107,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__create_uid
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_view__create_uid
 msgid "Created by"
-msgstr "ഉണ്ടാക്കിയത്"
+msgstr ""
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__create_date
 msgid "Created on"
-msgstr "സൃഷ്ടിച്ചത്"
+msgstr ""
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__lead_for
@@ -127,7 +123,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__display_name
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_view__display_name
 msgid "Display Name"
-msgstr "പ്രദർശന നാമം"
+msgstr ""
 
 #. module: crm_iap_lead_website
 #: code:addons/crm_iap_lead_website/models/crm_reveal_rule.py:0
@@ -153,7 +149,7 @@ msgstr ""
 #. module: crm_iap_lead_website
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_website.crm_reveal_rule_form
 msgid "From"
-msgstr "മുതൽ"
+msgstr ""
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__lead_ids
@@ -179,7 +175,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__id
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_view__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_lead__reveal_ip
@@ -196,19 +192,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule____last_update
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_view____last_update
 msgid "Last Modified on"
-msgstr "അവസാനം പരിഷ്‌ക്കരിച്ചത്"
+msgstr ""
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__write_uid
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_view__write_uid
 msgid "Last Updated by"
-msgstr "അവസാനം അപ്ഡേറ്റ് ചെയ്തത്"
+msgstr ""
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__write_date
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_view__write_date
 msgid "Last Updated on"
-msgstr "അവസാനം അപ്‌ഡേറ്റുചെയ്‌തത്"
+msgstr ""
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields.selection,name:crm_iap_lead_website.selection__crm_reveal_rule__lead_type__lead
@@ -390,7 +386,7 @@ msgstr ""
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__user_id
 msgid "Salesperson"
-msgstr "വിൽപ്പനക്കാരൻ"
+msgstr ""
 
 #. module: crm_iap_lead_website
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_website.crm_reveal_rule_view_search
@@ -406,7 +402,7 @@ msgstr ""
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__sequence
 msgid "Sequence"
-msgstr "അനുക്രമം"
+msgstr ""
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_view__reveal_state
@@ -416,7 +412,7 @@ msgstr ""
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__state_ids
 msgid "States"
-msgstr "സംസ്ഥാനങ്ങൾ"
+msgstr ""
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__suffix
@@ -426,7 +422,7 @@ msgstr ""
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__tag_ids
 msgid "Tags"
-msgstr "ടാഗുകൾ"
+msgstr ""
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,help:crm_iap_lead_website.field_crm_reveal_rule__extra_contacts
@@ -451,7 +447,7 @@ msgstr ""
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__lead_type
 msgid "Type"
-msgstr "തരം"
+msgstr ""
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__regex_url

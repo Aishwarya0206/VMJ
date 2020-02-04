@@ -2,16 +2,12 @@
 # This file contains the translation of the following modules:
 # 	* note
 # 
-# Translators:
-# Avinash N K <avinashnk94@gmail.com>, 2020
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-09 12:16+0000\n"
 "PO-Revision-Date: 2019-08-26 09:12+0000\n"
-"Last-Translator: Avinash N K <avinashnk94@gmail.com>, 2020\n"
 "Language-Team: Malayalam (https://www.transifex.com/odoo/teams/41243/ml/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,7 +28,7 @@ msgstr ""
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__message_needaction
 msgid "Action Needed"
-msgstr "പ്രവർത്തനം ആവശ്യമാണ്"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_mail_activity_type__category
@@ -50,12 +46,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:note.field_note_note__open
 #: model_terms:ir.ui.view,arch_db:note.view_note_note_filter
 msgid "Active"
-msgstr "സജീവമാണ്"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__activity_ids
 msgid "Activities"
-msgstr "പ്രവർത്തനങ്ങൾ"
+msgstr ""
 
 #. module: note
 #: model:ir.model,name:note.model_mail_activity
@@ -65,12 +61,12 @@ msgstr ""
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "പ്രവർത്തന ഒഴിവാക്കൽ അലങ്കാരം"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__activity_state
 msgid "Activity State"
-msgstr "പ്രവർത്തന നില"
+msgstr ""
 
 #. module: note
 #: model:ir.model,name:note.model_mail_activity_type
@@ -85,14 +81,14 @@ msgstr ""
 #. module: note
 #: model_terms:ir.actions.act_window,help:note.note_tag_action
 msgid "Add a new tag"
-msgstr "ഒരു പുതിയ ടാഗ് ചേർക്കുക"
+msgstr ""
 
 #. module: note
 #. openerp-web
 #: code:addons/note/static/src/xml/systray.xml:0
 #, python-format
 msgid "Add a note"
-msgstr "ഒരു കുറിപ്പ് ചേർക്കുക"
+msgstr ""
 
 #. module: note
 #. openerp-web
@@ -109,7 +105,7 @@ msgstr ""
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__message_attachment_count
 msgid "Attachment Count"
-msgstr "അറ്റാച്ചുമെന്റ് എണ്ണം"
+msgstr ""
 
 #. module: note
 #: model_terms:ir.ui.view,arch_db:note.view_note_note_filter
@@ -127,26 +123,26 @@ msgstr ""
 #: model:ir.model.fields,field_description:note.field_note_note__color
 #: model:ir.model.fields,field_description:note.field_note_tag__color
 msgid "Color Index"
-msgstr "വർണ്ണ സൂചിക"
+msgstr ""
 
 #. module: note
 #: model:ir.ui.menu,name:note.menu_note_configuration
 msgid "Configuration"
-msgstr "കോൺഫിഗറേഷൻ"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__create_uid
 #: model:ir.model.fields,field_description:note.field_note_stage__create_uid
 #: model:ir.model.fields,field_description:note.field_note_tag__create_uid
 msgid "Created by"
-msgstr "ഉണ്ടാക്കിയത്"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__create_date
 #: model:ir.model.fields,field_description:note.field_note_stage__create_date
 #: model:ir.model.fields,field_description:note.field_note_tag__create_date
 msgid "Created on"
-msgstr "സൃഷ്ടിച്ചത്"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__date_done
@@ -163,7 +159,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:note.field_note_stage__display_name
 #: model:ir.model.fields,field_description:note.field_note_tag__display_name
 msgid "Display Name"
-msgstr "പ്രദർശന നാമം"
+msgstr ""
 
 #. module: note
 #: model_terms:ir.ui.view,arch_db:note.view_note_note_kanban
@@ -188,91 +184,91 @@ msgstr ""
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__message_follower_ids
 msgid "Followers"
-msgstr "അനുയായികൾ"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__message_channel_ids
 msgid "Followers (Channels)"
-msgstr "പിന്തുടരുന്നവർ (ചാനലുകൾ)"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "അനുയായികൾ (പങ്കാളികൾ)"
+msgstr ""
 
 #. module: note
 #: model_terms:ir.ui.view,arch_db:note.view_note_note_filter
 msgid "Future Activities"
-msgstr "ഭാവി പ്രവർത്തനങ്ങൾ"
+msgstr ""
 
 #. module: note
 #: model_terms:ir.ui.view,arch_db:note.view_note_note_filter
 msgid "Group By"
-msgstr "ഗ്രൂപ്പ് പ്രകാരം"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__id
 #: model:ir.model.fields,field_description:note.field_note_stage__id
 #: model:ir.model.fields,field_description:note.field_note_tag__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__activity_exception_icon
 msgid "Icon"
-msgstr "ഐക്കൺ"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,help:note.field_note_note__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "ഒരു ഒഴിവാക്കൽ പ്രവർത്തനം സൂചിപ്പിക്കുന്നതിനുള്ള ഐക്കൺ."
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,help:note.field_note_note__message_needaction
 #: model:ir.model.fields,help:note.field_note_note__message_unread
 msgid "If checked, new messages require your attention."
-msgstr "പരിശോധിച്ചാൽ, പുതിയ സന്ദേശങ്ങൾക്ക് നിങ്ങളുടെ ശ്രദ്ധ ആവശ്യമാണ്."
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,help:note.field_note_note__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "പരിശോധിച്ചാൽ, ചില സന്ദേശങ്ങൾക്ക് ഡെലിവറി പിശക് ഉണ്ട്."
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__message_is_follower
 msgid "Is Follower"
-msgstr "അനുയായിയാണ്"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note____last_update
 #: model:ir.model.fields,field_description:note.field_note_stage____last_update
 #: model:ir.model.fields,field_description:note.field_note_tag____last_update
 msgid "Last Modified on"
-msgstr "അവസാനം പരിഷ്‌ക്കരിച്ചത്"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__write_uid
 #: model:ir.model.fields,field_description:note.field_note_stage__write_uid
 #: model:ir.model.fields,field_description:note.field_note_tag__write_uid
 msgid "Last Updated by"
-msgstr "അവസാനം അപ്ഡേറ്റ് ചെയ്തത്"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__write_date
 #: model:ir.model.fields,field_description:note.field_note_stage__write_date
 #: model:ir.model.fields,field_description:note.field_note_tag__write_date
 msgid "Last Updated on"
-msgstr "അവസാനം അപ്‌ഡേറ്റുചെയ്‌തത്"
+msgstr ""
 
 #. module: note
 #: model_terms:ir.ui.view,arch_db:note.view_note_note_filter
 msgid "Late Activities"
-msgstr "വൈകി പ്രവർത്തനങ്ങൾ"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "പ്രധാന അറ്റാച്ചുമെന്റ്"
+msgstr ""
 
 #. module: note
 #: model:note.stage,name:note.note_stage_01
@@ -282,39 +278,39 @@ msgstr ""
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__message_has_error
 msgid "Message Delivery error"
-msgstr "സന്ദേശ ഡെലിവറി പിശക്"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__message_ids
 msgid "Messages"
-msgstr "സന്ദേശങ്ങൾ"
+msgstr ""
 
 #. module: note
 #: model:note.stage,name:note.note_stage_00
 msgid "New"
-msgstr "പുതിയത്"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "അടുത്ത പ്രവർത്തന സമയപരിധി"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__activity_summary
 msgid "Next Activity Summary"
-msgstr "അടുത്ത പ്രവർത്തന സംഗ്രഹം"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__activity_type_id
 msgid "Next Activity Type"
-msgstr "അടുത്ത പ്രവർത്തന തരം"
+msgstr ""
 
 #. module: note
 #: model:ir.model,name:note.model_note_note
 #: model_terms:ir.ui.view,arch_db:note.view_note_note_filter
 #: model_terms:ir.ui.view,arch_db:note.view_note_note_form
 msgid "Note"
-msgstr "കുറിപ്പ്"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__memo
@@ -344,7 +340,7 @@ msgstr ""
 #: model:note.stage,name:note.note_stage_02
 #, python-format
 msgid "Notes"
-msgstr "കുറിപ്പുകൾ"
+msgstr ""
 
 #. module: note
 #: model_terms:ir.actions.act_window,help:note.action_note_note
@@ -356,27 +352,27 @@ msgstr ""
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__message_needaction_counter
 msgid "Number of Actions"
-msgstr "പ്രവർത്തനങ്ങളുടെ എണ്ണം"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__message_has_error_counter
 msgid "Number of errors"
-msgstr "പിശകുകളുടെ എണ്ണം"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,help:note.field_note_note__message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr "ഒരു പ്രവർത്തനം ആവശ്യമുള്ള സന്ദേശങ്ങളുടെ എണ്ണം"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,help:note.field_note_note__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "ഡെലിവറി പിശകുള്ള സന്ദേശങ്ങളുടെ എണ്ണം"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,help:note.field_note_note__message_unread_counter
 msgid "Number of unread messages"
-msgstr "വായിക്കാത്ത സന്ദേശങ്ങളുടെ എണ്ണം"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__user_id
@@ -410,7 +406,7 @@ msgstr ""
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__activity_user_id
 msgid "Responsible User"
-msgstr "ഉത്തരവാദിത്തമുള്ള ഉപയോക്താവ്"
+msgstr ""
 
 #. module: note
 #. openerp-web
@@ -423,7 +419,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:note.field_note_note__sequence
 #: model:ir.model.fields,field_description:note.field_note_stage__sequence
 msgid "Sequence"
-msgstr "അനുക്രമം"
+msgstr ""
 
 #. module: note
 #. openerp-web
@@ -436,8 +432,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:note.view_note_note_filter
 msgid "Show all records which has next action date is before today"
 msgstr ""
-"അടുത്ത പ്രവർത്തന തീയതിയുള്ള എല്ലാ റെക്കോർഡുകളും ഇന്നത്തെ മുമ്പുള്ളതായി "
-"കാണിക്കുക"
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__stage_id
@@ -480,13 +474,11 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"പ്രവർത്തനങ്ങളെ അടിസ്ഥാനമാക്കിയുള്ള നില കാലഹരണപ്പെട്ടു: അവസാന തീയതി ഇതിനകം "
-"കഴിഞ്ഞു കഴിഞ്ഞു: പ്രവർത്തന തീയതി ഇന്ന് ആസൂത്രണം ചെയ്തു: ഭാവി പ്രവർത്തനങ്ങൾ."
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_tag__name
 msgid "Tag Name"
-msgstr "ടാഗ് നാമം"
+msgstr ""
 
 #. module: note
 #: model:ir.model.constraint,message:note.constraint_note_tag_name_uniq
@@ -501,7 +493,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:note.note_tag_view_tree
 #: model_terms:ir.ui.view,arch_db:note.view_note_note_form
 msgid "Tags"
-msgstr "ടാഗുകൾ"
+msgstr ""
 
 #. module: note
 #. openerp-web
@@ -513,7 +505,7 @@ msgstr ""
 #. module: note
 #: model_terms:ir.ui.view,arch_db:note.view_note_note_filter
 msgid "Today Activities"
-msgstr "ഇന്ന് പ്രവർത്തനങ്ങൾ"
+msgstr ""
 
 #. module: note
 #: model:note.stage,name:note.note_stage_03
@@ -523,17 +515,17 @@ msgstr ""
 #. module: note
 #: model:ir.model.fields,help:note.field_note_note__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "റെക്കോർഡിലെ ഒഴിവാക്കൽ പ്രവർത്തനത്തിന്റെ തരം."
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__message_unread
 msgid "Unread Messages"
-msgstr "വായിക്കാത്ത സന്ദേശങ്ങൾ"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__message_unread_counter
 msgid "Unread Messages Counter"
-msgstr "വായിക്കാത്ത സന്ദേശങ്ങളുടെ ക .ണ്ടർ"
+msgstr ""
 
 #. module: note
 #: model:ir.model.fields,help:note.field_note_stage__sequence
@@ -543,4 +535,4 @@ msgstr ""
 #. module: note
 #: model:ir.model,name:note.model_res_users
 msgid "Users"
-msgstr "ഉപയോക്താക്കൾ"
+msgstr ""

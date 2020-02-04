@@ -922,8 +922,7 @@ msgstr "Een geselecteerde boeking is al afgeletterd."
 #: code:addons/account/models/account_bank_statement.py:0
 #, python-format
 msgid "A selected statement line was already reconciled with an account move."
-msgstr ""
-"Een geselecteerd bankafschrift is al afgeletterd met een andere boeking."
+msgstr "De geselecteerde verrichting werd reeds afgeletterd met een boeking."
 
 #. module: account
 #: model:ir.model.constraint,message:account.constraint_account_fiscal_position_tax_tax_src_dest_uniq
@@ -2995,9 +2994,6 @@ msgid ""
 "Check this box to negate the absolute value of the balance of the lines "
 "associated with this tag in tax report computation."
 msgstr ""
-"Vink dit vakje aan om de absolute waarde van het saldo van de regels die aan"
-" dit label zijn gekoppeld in de berekening van het belastingrapport te "
-"negeren."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax__price_include
@@ -3794,7 +3790,7 @@ msgstr "Creditfacturen"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__refund_sequence_number_next
 msgid "Credit Notes Next Number"
-msgstr "Creditfacturen volgende nummer"
+msgstr "Creditfacturen volgende Nummer"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_tax_adjustments_wizard__credit_account_id
@@ -4111,7 +4107,7 @@ msgstr "Decimaal scheidingsteken"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__refund_sequence
 msgid "Dedicated Credit Note Sequence"
-msgstr "Specifieke creditfactuur reeks"
+msgstr "Toegewijde creditfactuur reeks"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__default_credit_account_id
@@ -5207,12 +5203,12 @@ msgstr "Volledig afletteren"
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_move_reversal__refund_method__cancel
 msgid "Full Refund"
-msgstr "Volledige creditering"
+msgstr "Volledige Terugbetaling"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_move_reversal__refund_method__modify
 msgid "Full refund and new draft invoice"
-msgstr "Volledige creditering en nieuwe conceptfactuur"
+msgstr "Volledige terugbetaling en nieuwe concept factuur"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_invoice_filter
@@ -7791,12 +7787,12 @@ msgstr "Begin Dagboek"
 #: model:ir.model.fields,field_description:account.field_res_company__account_opening_move_id
 #, python-format
 msgid "Opening Journal Entry"
-msgstr "Openingsbalans"
+msgstr "Openingsboeking"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_financial_year_op__opening_move_posted
 msgid "Opening Move Posted"
-msgstr "Openingsbalans geboekt"
+msgstr "Openingsboeking geboekt"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_cashbox_line__number
@@ -7911,7 +7907,7 @@ msgstr "Oorspronkelijke BTW verdelingsregel"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__tax_group_id
 msgid "Originator tax group"
-msgstr "Herkomst BTW groep"
+msgstr ""
 
 #. module: account
 #. openerp-web
@@ -8035,7 +8031,7 @@ msgstr "Gedeeltelijke aflettering"
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_move_reversal__refund_method__refund
 msgid "Partial Refund"
-msgstr "Gedeeltelijk crediteren"
+msgstr "Gedeeltelijke Terugbetaling"
 
 #. module: account
 #. openerp-web
@@ -9044,13 +9040,13 @@ msgstr "Verdeling voor facturen"
 #: model:ir.model.fields,field_description:account.field_account_tax__refund_repartition_line_ids
 #: model:ir.model.fields,field_description:account.field_account_tax_template__refund_repartition_line_ids
 msgid "Repartition for Refund Invoices"
-msgstr "Verdeling voor creditfacturen"
+msgstr "Verdeling voor terugbetalingsfacturen"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax__refund_repartition_line_ids
 #: model:ir.model.fields,help:account.field_account_tax_template__refund_repartition_line_ids
 msgid "Repartition when the tax is used on a refund"
-msgstr "Verdeling wanneer de BTW wordt gebruikt voor een creditfactuur"
+msgstr "Verdeling wanneer de belasting wordt gebruikt voor een terugbetaling"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax__invoice_repartition_line_ids
@@ -9182,8 +9178,7 @@ msgstr "Beperk relaties tot"
 #: model:ir.model.fields,help:account.field_account_reconcile_model_template__match_same_currency
 msgid ""
 "Restrict to propositions having the same currency as the statement line."
-msgstr ""
-"Beperk het voorstel tot regels met dezelfde valuta als de afschriftregel."
+msgstr "Beperk tot voorstellen met dezelfde valuta als de verrichtingsregel."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_digest_digest__kpi_account_total_revenue
@@ -9518,7 +9513,7 @@ msgstr "Tweede rekening"
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__second_amount_from_label_regex
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_template__second_amount_from_label_regex
 msgid "Second Amount from Label (regex)"
-msgstr "Tweede aantal van label (regex)"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__second_amount_type
@@ -11024,8 +11019,8 @@ msgstr ""
 msgid ""
 "The credit note is created in draft and can be edited before being issued."
 msgstr ""
-"De creditfactuur wordt gemaakt in concept en kan worden bewerkt voordat deze"
-" wordt uitgegeven."
+"De creditfactuur is aangemaakt in concept en kan worden bewerkt alvorens "
+"definitief te maken."
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:0
@@ -11421,7 +11416,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_tax_adjustments_wizard__tax_report_line_id
 msgid "The report line to make an adjustment for."
-msgstr "De rapportregel waarvoor een correctie gemaakt moet worden."
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line__amount_residual_currency
@@ -11457,8 +11452,8 @@ msgid ""
 "The sum of total residual amount propositions matches the statement line "
 "amount under this percentage."
 msgstr ""
-"Het voorstel van de som van het totale restbedrag is lager dat dit "
-"percentage."
+"De som van de voorgestelde totale restwaarde matches het totale bedrag van "
+"de verrichting volgens het percentage."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_total_amount
@@ -11467,8 +11462,8 @@ msgid ""
 "The sum of total residual amount propositions matches the statement line "
 "amount."
 msgstr ""
-"Het voorstel van de som van het totale restbedrag komt overeen met het "
-"totale bedrag van de afschriftregel."
+"De som van de voorgestelde totale restwaarde komt overeen met het totale "
+"bedrag van de verrichting."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_tag__tax_report_line_ids

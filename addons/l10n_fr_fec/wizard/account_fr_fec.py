@@ -234,13 +234,9 @@ class AccountFrFec(models.TransientModel):
             %s AS EcritureDate,
             MIN(aa.code) AS CompteNum,
             replace(MIN(aa.name), '|', '/') AS CompteLib,
-            CASE WHEN MIN(aat.type) IN ('receivable', 'payable')
-            THEN
-                CASE WHEN rp.ref IS null OR rp.ref = ''
-                THEN rp.id::text
-                ELSE replace(rp.ref, '|', '/')
-                END
-            ELSE ''
+            CASE WHEN rp.ref IS null OR rp.ref = ''
+            THEN COALESCE('ID ' || rp.id, '')
+            ELSE replace(rp.ref, '|', '/')
             END
             AS CompAuxNum,
             COALESCE(replace(rp.name, '|', '/'), '') AS CompAuxLib,
@@ -296,13 +292,9 @@ class AccountFrFec(models.TransientModel):
             TO_CHAR(am.date, 'YYYYMMDD') AS EcritureDate,
             aa.code AS CompteNum,
             replace(replace(aa.name, '|', '/'), '\t', '') AS CompteLib,
-            CASE WHEN aat.type IN ('receivable', 'payable')
-            THEN
-                CASE WHEN rp.ref IS null OR rp.ref = ''
-                THEN rp.id::text
-                ELSE replace(rp.ref, '|', '/')
-                END
-            ELSE ''
+            CASE WHEN rp.ref IS null OR rp.ref = ''
+            THEN COALESCE('ID ' || rp.id, '')
+            ELSE replace(rp.ref, '|', '/')
             END
             AS CompAuxNum,
             COALESCE(replace(replace(rp.name, '|', '/'), '\t', ''), '') AS CompAuxLib,
@@ -331,7 +323,6 @@ class AccountFrFec(models.TransientModel):
             LEFT JOIN res_partner rp ON rp.id=aml.partner_id
             JOIN account_journal aj ON aj.id = am.journal_id
             JOIN account_account aa ON aa.id = aml.account_id
-            LEFT JOIN account_account_type aat ON aa.user_type_id = aat.id
             LEFT JOIN res_currency rc ON rc.id = aml.currency_id
             LEFT JOIN account_full_reconcile rec ON rec.id = aml.full_reconcile_id
         WHERE

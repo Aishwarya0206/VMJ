@@ -309,13 +309,13 @@ models.Order = models.Order.extend({
         };
 
     },
-    printChanges: async function(){
+    printChanges: function(){
         var printers = this.pos.printers;
         for(var i = 0; i < printers.length; i++){
             var changes = this.computeChanges(printers[i].config.product_categories_ids);
             if ( changes['new'].length > 0 || changes['cancelled'].length > 0){
                 var receipt = QWeb.render('OrderChangeReceipt',{changes:changes, widget:this});
-                await printers[i].print_receipt(receipt);
+                printers[i].print_receipt(receipt);
             }
         }
     },
@@ -351,10 +351,10 @@ models.Order = models.Order.extend({
 
 var SubmitOrderButton = screens.ActionButtonWidget.extend({
     'template': 'SubmitOrderButton',
-    button_click: async function(){
+    button_click: function(){
         var order = this.pos.get_order();
         if(order.hasChangesToPrint()){
-            await order.printChanges();
+            order.printChanges();
             order.saveChanges();
         }
     },

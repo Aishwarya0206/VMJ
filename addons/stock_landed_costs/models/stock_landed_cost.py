@@ -201,7 +201,7 @@ class LandedCost(models.Model):
 
         for move in self.mapped('picking_ids').mapped('move_lines'):
             # it doesn't make sense to make a landed cost for a product that isn't set as being valuated in real time at real cost
-            if move.product_id.valuation != 'real_time' or move.product_id.cost_method not in ('fifo', 'average') or move.state == 'cancel':
+            if move.product_id.valuation != 'real_time' or move.product_id.cost_method not in ('fifo', 'average'):
                 continue
             vals = {
                 'product_id': move.product_id.id,
@@ -331,7 +331,7 @@ class AdjustmentLines(models.Model):
         'Weight', default=1.0,
         digits='Stock Weight')
     volume = fields.Float(
-        'Volume', default=1.0, digits='Volume')
+        'Volume', default=1.0)
     former_cost = fields.Float(
         'Original Value', digits='Product Price')
     additional_landed_cost = fields.Float(

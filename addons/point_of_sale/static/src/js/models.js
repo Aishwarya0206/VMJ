@@ -1023,9 +1023,9 @@ exports.PosModel = Backbone.Model.extend({
                     }
                     self.set('failed',error);
                 }
-                console.warn('Failed to send orders:', orders);
+                console.error('Failed to send orders:', orders);
                 self.gui.show_sync_error_popup();
-                throw error;
+                throw reason;
             });
     },
 
@@ -2933,7 +2933,7 @@ exports.Order = Backbone.Model.extend({
 
         return total;
     },
-    get_change_value: function(paymentline) {
+    get_change: function(paymentline) {
         if (!paymentline) {
             var change = this.get_total_paid() - this.get_total_with_tax();
         } else {
@@ -2946,11 +2946,7 @@ exports.Order = Backbone.Model.extend({
                 }
             }
         }
-        return round_pr(change, this.pos.currency.rounding)
-    },
-    get_change: function(paymentline) {
-        var change = this.get_change_value(paymentline);
-        return Math.max(0,change);
+        return round_pr(Math.max(0,change), this.pos.currency.rounding);
     },
     get_due: function(paymentline) {
         if (!paymentline) {

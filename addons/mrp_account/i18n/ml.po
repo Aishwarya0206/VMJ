@@ -2,16 +2,12 @@
 # This file contains the translation of the following modules:
 # 	* mrp_account
 # 
-# Translators:
-# Avinash N K <avinashnk94@gmail.com>, 2020
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~12.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-12 11:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:12+0000\n"
-"Last-Translator: Avinash N K <avinashnk94@gmail.com>, 2020\n"
 "Language-Team: Malayalam (https://www.transifex.com/odoo/teams/41243/ml/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +18,7 @@ msgstr ""
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_workcenter__costs_hour_account_id
 msgid "Analytic Account"
-msgstr "അനലിറ്റിക് അക്കൗണ്ട്"
+msgstr ""
 
 #. module: mrp_account
 #: model:ir.actions.server,name:mrp_account.action_compute_price_bom_product
@@ -67,12 +63,12 @@ msgstr ""
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_product_product
 msgid "Product"
-msgstr "ഉൽപ്പന്നം"
+msgstr ""
 
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_product_template
 msgid "Product Template"
-msgstr "ഉൽപ്പന്ന ടെംപ്ലേറ്റ്"
+msgstr ""
 
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_mrp_production

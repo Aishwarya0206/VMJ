@@ -3,7 +3,7 @@
 # 	* project
 # 
 # Translators:
-# Avinash N K <avinashnk94@gmail.com>, 2020
+# avinashnk94 <avinashnk94@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:13+0000\n"
-"Last-Translator: Avinash N K <avinashnk94@gmail.com>, 2020\n"
+"Last-Translator: avinashnk94 <avinashnk94@gmail.com>, 2019\n"
 "Language-Team: Malayalam (https://www.transifex.com/odoo/teams/41243/ml/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -322,28 +322,28 @@ msgstr "പ്രവേശന മുന്നറിയിപ്പ്"
 #: model:ir.model.fields,field_description:project.field_project_project__message_needaction
 #: model:ir.model.fields,field_description:project.field_project_task__message_needaction
 msgid "Action Needed"
-msgstr "പ്രവർത്തനം ആവശ്യമാണ്"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__active
 #: model:ir.model.fields,field_description:project.field_project_task__active
 msgid "Active"
-msgstr "സജീവമാണ്"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__activity_ids
 msgid "Activities"
-msgstr "പ്രവർത്തനങ്ങൾ"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "പ്രവർത്തന ഒഴിവാക്കൽ അലങ്കാരം"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__activity_state
 msgid "Activity State"
-msgstr "പ്രവർത്തന നില"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.mail_activity_type_action_config_project_types
@@ -386,7 +386,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__alias_id
 msgid "Alias"
-msgstr "അപരനാമം"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__alias_contact
@@ -396,12 +396,12 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__alias_name
 msgid "Alias Name"
-msgstr "അപരനാമത്തിന്റെ പേര്"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__alias_domain
 msgid "Alias domain"
-msgstr "അപരനാമം"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__alias_model_id
@@ -435,7 +435,7 @@ msgstr ""
 #: model:ir.model,name:project.model_account_analytic_account
 #: model:ir.model.fields,field_description:project.field_project_project__analytic_account_id
 msgid "Analytic Account"
-msgstr "അനലിറ്റിക് അക്കൗണ്ട്"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__analytic_account_id
@@ -450,7 +450,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Archived"
-msgstr "ശേഖരിച്ചു"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
@@ -504,7 +504,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_project__message_attachment_count
 #: model:ir.model.fields,field_description:project.field_project_task__message_attachment_count
 msgid "Attachment Count"
-msgstr "അറ്റാച്ചുമെന്റ് എണ്ണം"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task__attachment_ids
@@ -515,7 +515,7 @@ msgstr ""
 #: code:addons/project/models/project.py:0
 #, python-format
 msgid "Attachments"
-msgstr "അറ്റാച്ചുമെന്റുകൾ"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type__auto_validation_kanban_state
@@ -610,7 +610,7 @@ msgstr ""
 #. module: project
 #: model:project.task.type,name:project.project_stage_3
 msgid "Cancelled"
-msgstr "റദ്ദാക്കി"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -664,7 +664,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_tags__color
 #: model:ir.model.fields,field_description:project.field_project_task__color
 msgid "Color Index"
-msgstr "വർണ്ണ സൂചിക"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -683,7 +683,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.view_task_project_user_search
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Company"
-msgstr "കമ്പനി"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task__subtask_planned_hours
@@ -695,12 +695,12 @@ msgstr ""
 #. module: project
 #: model:ir.model,name:project.model_res_config_settings
 msgid "Config Settings"
-msgstr "ക്രമീകരണങ്ങൾ ക്രമീകരിക്കുക"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.menu,name:project.menu_project_config
 msgid "Configuration"
-msgstr "കോൺഫിഗറേഷൻ"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -716,7 +716,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.project_view_kanban
 #: model_terms:ir.ui.view,arch_db:project.view_project
 msgid "Contact"
-msgstr "ബന്ധപ്പെടുക"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -733,7 +733,7 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_project_view_form_simplified_footer
 msgid "Create"
-msgstr "സൃഷ്ടിക്കാൻ"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.open_create_project
@@ -772,14 +772,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task__create_uid
 #: model:ir.model.fields,field_description:project.field_project_task_type__create_uid
 msgid "Created by"
-msgstr "ഉണ്ടാക്കിയത്"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__create_date
 #: model:ir.model.fields,field_description:project.field_project_tags__create_date
 #: model:ir.model.fields,field_description:project.field_project_task_type__create_date
 msgid "Created on"
-msgstr "സൃഷ്ടിച്ചത്"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
@@ -794,7 +794,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__currency_id
 msgid "Currency"
-msgstr "കറൻസി"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_my_tasks
@@ -816,7 +816,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_filter
 #, python-format
 msgid "Customer"
-msgstr "ഉപഭോക്താവ്"
+msgstr ""
 
 #. module: project
 #: code:addons/project/models/project.py:0
@@ -836,7 +836,7 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project__access_url
 #: model:ir.model.fields,help:project.field_project_task__access_url
 msgid "Customer Portal URL"
-msgstr "ഉപഭോക്തൃ പോർട്ടൽ URL"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.rating_rating_action_project_report
@@ -933,7 +933,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task_type__description
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Description"
-msgstr "വിവരണം"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -953,7 +953,7 @@ msgstr ""
 #. module: project
 #: model:ir.model,name:project.model_digest_digest
 msgid "Digest"
-msgstr "ഡൈജസ്റ്റ്"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -974,14 +974,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task_type__display_name
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__display_name
 msgid "Display Name"
-msgstr "പ്രദർശന നാമം"
+msgstr ""
 
 #. module: project
 #: code:addons/project/models/digest.py:0
 #, python-format
 msgid "Do not have access, skip this data for user's digest email"
 msgstr ""
-"ആക്‌സസ്സ് ഇല്ല, ഉപയോക്താവിന്റെ ഡൈജസ്റ്റ് ഇമെയിലിനായി ഈ ഡാറ്റ ഒഴിവാക്കുക"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
@@ -999,14 +998,14 @@ msgstr ""
 #: model:project.task.type,name:project.project_stage_2
 #, python-format
 msgid "Done"
-msgstr "ചെയ്‌തു"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid "Draft"
-msgstr "ഡ്രാഫ്റ്റ്"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
@@ -1016,7 +1015,7 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
 msgid "Edit"
-msgstr "എഡിറ്റുചെയ്യുക"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
@@ -1040,12 +1039,12 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__email_from
 msgid "Email"
-msgstr "ഇമെയിൽ"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "Email Alias"
-msgstr "അപരനാമം ഇമെയിൽ ചെയ്യുക"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type__mail_template_id
@@ -1148,19 +1147,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_project__message_follower_ids
 #: model:ir.model.fields,field_description:project.field_project_task__message_follower_ids
 msgid "Followers"
-msgstr "അനുയായികൾ"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__message_channel_ids
 #: model:ir.model.fields,field_description:project.field_project_task__message_channel_ids
 msgid "Followers (Channels)"
-msgstr "പിന്തുടരുന്നവർ (ചാനലുകൾ)"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__message_partner_ids
 #: model:ir.model.fields,field_description:project.field_project_task__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "അനുയായികൾ (പങ്കാളികൾ)"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_res_config_settings__module_project_forecast
@@ -1170,7 +1169,7 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Future Activities"
-msgstr "ഭാവി പ്രവർത്തനങ്ങൾ"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.menu,name:project.menu_tasks_config
@@ -1224,7 +1223,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.view_task_project_user_search
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Group By"
-msgstr "ഗ്രൂപ്പ് പ്രകാരം"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1281,7 +1280,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task_type__id
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_parent_thread_id
@@ -1293,12 +1292,12 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__activity_exception_icon
 msgid "Icon"
-msgstr "ഐക്കൺ"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "ഒരു ഒഴിവാക്കൽ പ്രവർത്തനം സൂചിപ്പിക്കുന്നതിനുള്ള ഐക്കൺ."
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1313,7 +1312,7 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_task__message_needaction
 #: model:ir.model.fields,help:project.field_project_task__message_unread
 msgid "If checked, new messages require your attention."
-msgstr "പരിശോധിച്ചാൽ, പുതിയ സന്ദേശങ്ങൾക്ക് നിങ്ങളുടെ ശ്രദ്ധ ആവശ്യമാണ്."
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__message_has_error
@@ -1321,7 +1320,7 @@ msgstr "പരിശോധിച്ചാൽ, പുതിയ സന്ദേശ
 #: model:ir.model.fields,help:project.field_project_task__message_has_error
 #: model:ir.model.fields,help:project.field_project_task__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr "പരിശോധിച്ചാൽ, ചില സന്ദേശങ്ങൾക്ക് ഡെലിവറി പിശക് ഉണ്ട്."
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_type__mail_template_id
@@ -1430,7 +1429,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_project__message_is_follower
 #: model:ir.model.fields,field_description:project.field_project_task__message_is_follower
 msgid "Is Follower"
-msgstr "അനുയായിയാണ്"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_tags_search_view
@@ -1507,7 +1506,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task_type____last_update
 #: model:ir.model.fields,field_description:project.field_report_project_task_user____last_update
 msgid "Last Modified on"
-msgstr "അവസാനം പരിഷ്‌ക്കരിച്ചത്"
+msgstr ""
 
 #. module: project
 #: code:addons/project/controllers/portal.py:0
@@ -1528,19 +1527,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task__write_uid
 #: model:ir.model.fields,field_description:project.field_project_task_type__write_uid
 msgid "Last Updated by"
-msgstr "അവസാനം അപ്ഡേറ്റ് ചെയ്തത്"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__write_date
 #: model:ir.model.fields,field_description:project.field_project_tags__write_date
 #: model:ir.model.fields,field_description:project.field_project_task_type__write_date
 msgid "Last Updated on"
-msgstr "അവസാനം അപ്‌ഡേറ്റുചെയ്‌തത്"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Late Activities"
-msgstr "വൈകി പ്രവർത്തനങ്ങൾ"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
@@ -1618,7 +1617,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_project__message_main_attachment_id
 #: model:ir.model.fields,field_description:project.field_project_task__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "പ്രധാന അറ്റാച്ചുമെന്റ്"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__attachment_ids
@@ -1644,13 +1643,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_project__message_has_error
 #: model:ir.model.fields,field_description:project.field_project_task__message_has_error
 msgid "Message Delivery error"
-msgstr "സന്ദേശ ഡെലിവറി പിശക്"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__message_ids
 #: model:ir.model.fields,field_description:project.field_project_task__message_ids
 msgid "Messages"
-msgstr "സന്ദേശങ്ങൾ"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_filter
@@ -1668,7 +1667,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.portal_my_tasks
 #, python-format
 msgid "Name"
-msgstr "പേര്"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
@@ -1703,7 +1702,7 @@ msgstr ""
 #: model:project.task.type,name:project.project_stage_data_0
 #, python-format
 msgid "New"
-msgstr "പുതിയത്"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1741,17 +1740,17 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "അടുത്ത പ്രവർത്തന സമയപരിധി"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__activity_summary
 msgid "Next Activity Summary"
-msgstr "അടുത്ത പ്രവർത്തന സംഗ്രഹം"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__activity_type_id
 msgid "Next Activity Type"
-msgstr "അടുത്ത പ്രവർത്തന തരം"
+msgstr ""
 
 #. module: project
 #: code:addons/project/models/project.py:0
@@ -1779,7 +1778,7 @@ msgstr ""
 #: code:addons/project/controllers/portal.py:0
 #, python-format
 msgid "None"
-msgstr "ഒന്നുമില്ല"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__priority__0
@@ -1802,7 +1801,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_project__message_needaction_counter
 #: model:ir.model.fields,field_description:project.field_project_task__message_needaction_counter
 msgid "Number of Actions"
-msgstr "പ്രവർത്തനങ്ങളുടെ എണ്ണം"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_report_project_task_user__working_days_open
@@ -1823,25 +1822,25 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_project__message_has_error_counter
 #: model:ir.model.fields,field_description:project.field_project_task__message_has_error_counter
 msgid "Number of errors"
-msgstr "പിശകുകളുടെ എണ്ണം"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__message_needaction_counter
 #: model:ir.model.fields,help:project.field_project_task__message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr "ഒരു പ്രവർത്തനം ആവശ്യമുള്ള സന്ദേശങ്ങളുടെ എണ്ണം"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__message_has_error_counter
 #: model:ir.model.fields,help:project.field_project_task__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "ഡെലിവറി പിശകുള്ള സന്ദേശങ്ങളുടെ എണ്ണം"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__message_unread_counter
 #: model:ir.model.fields,help:project.field_project_task__message_unread_counter
 msgid "Number of unread messages"
-msgstr "വായിക്കാത്ത സന്ദേശങ്ങളുടെ എണ്ണം"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.action_view_task
@@ -2002,7 +2001,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_project__access_url
 #: model:ir.model.fields,field_description:project.field_project_task__access_url
 msgid "Portal Access URL"
-msgstr "പോർട്ടൽ ആക്സസ് URL"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_project__privacy_visibility__portal
@@ -2291,7 +2290,7 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_my_tasks
 msgid "Ref"
-msgstr "റഫ"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -2303,7 +2302,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.menu,name:project.menu_project_report
 msgid "Reporting"
-msgstr "റിപ്പോർട്ടുചെയ്യുന്നു"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -2336,13 +2335,13 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__activity_user_id
 msgid "Responsible User"
-msgstr "ഉത്തരവാദിത്തമുള്ള ഉപയോക്താവ്"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__message_has_sms_error
 #: model:ir.model.fields,field_description:project.field_project_task__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr "SMS ഡെലിവറി പിശക്"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_project_rating_partner_stat
@@ -2395,14 +2394,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_project__access_token
 #: model:ir.model.fields,field_description:project.field_project_task__access_token
 msgid "Security Token"
-msgstr "സുരക്ഷാ ടോക്കൺ"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__sequence
 #: model:ir.model.fields,field_description:project.field_project_task__sequence
 #: model:ir.model.fields,field_description:project.field_project_task_type__sequence
 msgid "Sequence"
-msgstr "അനുക്രമം"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
@@ -2424,7 +2423,7 @@ msgstr ""
 #: model:ir.ui.menu,name:project.project_config_settings_menu_action
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "Settings"
-msgstr "ക്രമീകരണങ്ങൾ"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.portal_share_action
@@ -2432,7 +2431,7 @@ msgstr "ക്രമീകരണങ്ങൾ"
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Share"
-msgstr "പങ്കിടുക"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__is_favorite
@@ -2443,8 +2442,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Show all records which has next action date is before today"
 msgstr ""
-"അടുത്ത പ്രവർത്തന തീയതിയുള്ള എല്ലാ റെക്കോർഡുകളും ഇന്നത്തെ മുമ്പുള്ളതായി "
-"കാണിക്കുക"
 
 #. module: project
 #. openerp-web
@@ -2510,7 +2507,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__date_start
 msgid "Start Date"
-msgstr "തുടങ്ങുന്ന ദിവസം"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task__activity_state
@@ -2520,8 +2517,6 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"പ്രവർത്തനങ്ങളെ അടിസ്ഥാനമാക്കിയുള്ള നില കാലഹരണപ്പെട്ടു: അവസാന തീയതി ഇതിനകം "
-"കഴിഞ്ഞു കഴിഞ്ഞു: പ്രവർത്തന തീയതി ഇന്ന് ആസൂത്രണം ചെയ്തു: ഭാവി പ്രവർത്തനങ്ങൾ."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__subtask_project_id
@@ -2557,7 +2552,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_tags__name
 msgid "Tag Name"
-msgstr "ടാഗ് നാമം"
+msgstr ""
 
 #. module: project
 #: model:ir.model.constraint,message:project.constraint_project_tags_name_uniq
@@ -2571,7 +2566,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.project_tags_form_view
 #: model_terms:ir.ui.view,arch_db:project.project_tags_tree_view
 msgid "Tags"
-msgstr "ടാഗുകൾ"
+msgstr ""
 
 #. module: project
 #: model:ir.model,name:project.model_project_task
@@ -2754,22 +2749,10 @@ msgstr ""
 #. module: project
 #: code:addons/project/models/project.py:0
 #, python-format
-msgid "The parent task belongs to a company you do not have access to."
-msgstr ""
-
-#. module: project
-#: code:addons/project/models/project.py:0
-#, python-format
 msgid ""
 "The project cannot be shared with the recipient(s) because the privacy of "
 "the project is too restricted. Set the privacy to 'Visible by following "
 "customers' in order to make it accessible by the recipient(s)."
-msgstr ""
-
-#. module: project
-#: code:addons/project/models/project.py:0
-#, python-format
-msgid "The subtasks belong to a company you do not have access to."
 msgstr ""
 
 #. module: project
@@ -2813,7 +2796,7 @@ msgstr ""
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid "This Week"
-msgstr "ഈ ആഴ്ച"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.action_project_task_user_tree
@@ -2893,7 +2876,7 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Today Activities"
-msgstr "ഇന്ന് പ്രവർത്തനങ്ങൾ"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_project_rating_partner_stat
@@ -2913,7 +2896,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "റെക്കോർഡിലെ ഒഴിവാക്കൽ പ്രവർത്തനത്തിന്റെ തരം."
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_project_user_search
@@ -2933,13 +2916,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Unread Messages"
-msgstr "വായിക്കാത്ത സന്ദേശങ്ങൾ"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__message_unread_counter
 #: model:ir.model.fields,field_description:project.field_project_task__message_unread_counter
 msgid "Unread Messages Counter"
-msgstr "വായിക്കാത്ത സന്ദേശങ്ങളുടെ ക .ണ്ടർ"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_res_config_settings__group_project_rating
@@ -2972,7 +2955,7 @@ msgstr ""
 #. module: project
 #: model:res.groups,name:project.group_project_user
 msgid "User"
-msgstr "ഉപയോക്താവ്"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__user_email
@@ -3004,7 +2987,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_project__website_message_ids
 #: model:ir.model.fields,field_description:project.field_project_task__website_message_ids
 msgid "Website Messages"
-msgstr "വെബ്‌സൈറ്റ് സന്ദേശങ്ങൾ"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -3017,7 +3000,7 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project__website_message_ids
 #: model:ir.model.fields,help:project.field_project_task__website_message_ids
 msgid "Website communication history"
-msgstr "വെബ്‌സൈറ്റ് ആശയവിനിമയ ചരിത്രം"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_project__rating_status_period__weekly

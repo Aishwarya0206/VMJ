@@ -2,16 +2,12 @@
 # This file contains the translation of the following modules:
 # * web_tour
 # 
-# Translators:
-# Avinash N K <avinashnk94@gmail.com>, 2020
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:18+0000\n"
 "PO-Revision-Date: 2019-08-26 09:15+0000\n"
-"Last-Translator: Avinash N K <avinashnk94@gmail.com>, 2020\n"
 "Language-Team: Malayalam (https://www.transifex.com/odoo/teams/41243/ml/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,7 +37,7 @@ msgstr ""
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__display_name
 msgid "Display Name"
-msgstr "പ്രദർശന നാമം"
+msgstr ""
 
 #. module: web_tour
 #: model:ir.model,name:web_tour.model_ir_http
@@ -51,12 +47,12 @@ msgstr ""
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour____last_update
 msgid "Last Modified on"
-msgstr "അവസാനം പരിഷ്‌ക്കരിച്ചത്"
+msgstr ""
 
 #. module: web_tour
 #: model_terms:ir.ui.view,arch_db:web_tour.edit_tour_list
@@ -68,7 +64,7 @@ msgstr ""
 #: code:addons/web_tour/static/src/xml/debug_manager.xml:17
 #, python-format
 msgid "Name"
-msgstr "പേര്"
+msgstr ""
 
 #. module: web_tour
 #. openerp-web

@@ -779,10 +779,7 @@ class TestStockValuationChangeValuation(TestStockValuationCommon):
             'property_stock_journal': self.stock_journal.id,
         })
 
-        # Try to change the product category with a `default_type` key in the context and
-        # check it doesn't break the account move generation.
-        self.product1.with_context(default_type='product').categ_id = cat2
-        self.assertEqual(self.product1.categ_id, cat2)
+        self.product1.categ_id = cat2
 
         self.assertEqual(self.product1.value_svl, 100)
         self.assertEqual(self.product1.quantity_svl, 10)
