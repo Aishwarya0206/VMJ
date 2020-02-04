@@ -1,0 +1,43 @@
+<odoo>
+    <data>
+	<record model="hostel.name" id="no1">
+            <field name="name">James Doak</field>
+            <field name="description">Hostel with all facilities for UG students
+            </field>
+        </record>
+        <record model="hostel.name" id="no2">
+            <field name="name">Wallace</field>
+            <field name="description">Hostel with all facilities for PG students</field>
+        </record>
+        <record model="hostel.name" id="no3">
+            <field name="name">Jeevana Jothi</field>
+            <field name="description">Hostel with all facilities for M.phil</field>
+        </record>
+<!--
+          <record id="object0" model="hostel.hostel">
+            <field name="name">Object 0</field>
+            <field name="value">0</field>
+          </record>
+
+          <record id="object1" model="hostel.hostel">
+            <field name="name">Object 1</field>
+            <field name="value">10</field>
+          </record>
+
+          <record id="object2" model="hostel.hostel">
+            <field name="name">Object 2</field>
+            <field name="value">20</field>
+          </record>
+
+          <record id="object3" model="hostel.hostel">
+            <field name="name">Object 3</field>
+            <field name="value">30</field>
+          </record>
+
+          <record id="object4" model="hostel.hostel">
+            <field name="name">Object 4</field>
+            <field name="value">40</field>
+          </record>
+-->
+    </data>
+</odoo>
